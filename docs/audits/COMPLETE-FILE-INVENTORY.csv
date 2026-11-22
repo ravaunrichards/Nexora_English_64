@@ -1,0 +1,12 @@
+path,type,mode,size_bytes,git_blob_sha,sha256_status,payload_review_status
+".github/workflows/nexora-native-kernel.yml",blob,"100644",1743,60ff34e7a85b8a92e503152590c864da72f6783e,not-computed,pending
+"bootloader/grub/grub.cfg",blob,"100644",235,3d1397653a388864f21ce8b85d0be88a86961b23,not-computed,pending
+"docs/architecture/NEXORA-KERNEL-BOOTSTRAP.md",blob,"100644",1804,bebf4cbd11f6b531ef0cea982f72f11a01056c57,not-computed,pending
+"docs/DEVELOPMENT-STATUS.md",blob,"100644",1667,7f43d7840c28915c7b617a5d8e3d51f3294219a3,not-computed,pending
+"kernel/arch/x86_64/boot.S",blob,"100644",1546,d8e4a2e212c65e95b11840d4ef9a933d38fa44f6,not-computed,pending
+"kernel/boot/multiboot2_header.S",blob,"100644",295,e882e74f936589edace5a332a8af103b06a065e2,not-computed,pending
+"kernel/core/kernel.c",blob,"100644",3211,eada3b1b3f7943eedb7b9d6fa1936176b5fc80e4,not-computed,pending
+"kernel/linker.ld",blob,"100644",396,0c51a505ce0f9e9e7b37a42e54eaeae8ff7aa796,not-computed,pending
+"Makefile",blob,"100644",1516,88a91508b4c4a353035b015b1c82de21afbe1fab,not-computed,pending
+"tests/boot/check-kernel-artifact.sh",blob,"100644",561,aa86c1492148a1a39f19794efebef2018015677c,not-computed,pending
+"tests/boot/qemu-smoke-test.sh",blob,"100644",1345,0ed8082182581f760dfe8249901526d32189b5cd,not-computed,pending
