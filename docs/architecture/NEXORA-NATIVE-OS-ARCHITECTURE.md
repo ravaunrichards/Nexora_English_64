@@ -53,7 +53,7 @@ The first kernel is a small, freestanding, monolithic kernel with strict subsyst
 
 ## 4. Boot architecture
 
-The initial implementation should use a documented, replaceable x86-64 boot protocol and a maintained bootloader such as Limine, subject to a separate dependency/license review. The bootloader loads the NEXORA kernel and passes a defined handoff structure.
+The current bring-up implementation uses GRUB 2 with the Multiboot2 protocol. GRUB is a third-party loader, not NEXORA kernel code. The Multiboot2 entry arrives in 32-bit protected mode; NEXORA assembly creates a temporary first-GiB identity map, enables long mode and calls the freestanding C kernel entry. GRUB/Multiboot2 dependency versions and licenses must be recorded and pinned for reproducible releases. Limine remains a candidate for later evaluation, not the currently implemented loader.
 
 Boot sequence target:
 
