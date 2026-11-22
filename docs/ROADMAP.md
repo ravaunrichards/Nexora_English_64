@@ -1,59 +1,59 @@
-# NEXORA English x64 — 16-phase native OS development roadmap
+# NEXORA English x64 — 16-phase development roadmap
 
 **Target:** Independent NEXORA operating system for AMD64/x86-64.  
-**Kernel:** NEXORA-owned freestanding kernel; neither Linux nor Windows.  
-**Status rule:** Planned means no implementation evidence yet. Implemented — untested means source exists but runtime behavior is unverified. Tested requires recorded, reproducible evidence.
+**Development branch:** nexora/development  
+**Status policy:** Source added is not the same as built; built is not the same as booted; booted in QEMU is not hardware certification.
 
-| Phase | Scope | Current status |
+| Phase | Required scope | Current status |
 |---|---|---|
-| 1 | Complete repository inventory, content classification, binary fingerprints, provenance and licensing audit | **Partially complete** — full tracked-path inventory committed; payload-by-payload review, signatures and license evidence outstanding |
-| 2 | NEXORA identity, repository boundaries, architecture and technical specifications | **In progress** — native architecture baseline committed; detailed subsystem specifications and asset audit outstanding |
-| 3 | NEXORA kernel, AMD64 boot path, toolchain, linker layout and early core | **In progress** — initial freestanding kernel bootstrap and UEFI/QEMU workflow added; build/boot verification pending |
-| 4 | NEXORA Desktop and NEXORA Classic shell architecture and implementation | **Planned** |
-| 5 | Core user applications: settings, file manager, terminal, task/process manager, device manager, diagnostics and recovery tools | **Planned** |
-| 6 | Hardware discovery and drivers: CPU, PCI, storage, USB, display, input and power | **Planned** |
-| 7 | Networking: Ethernet, Wi-Fi, TCP/IP, DNS, DHCP, Bluetooth, firewall, VPN, sharing, FTP, WebDAV and remote access | **Planned** |
-| 8 | Administration framework, command shell, scripting, PowerShell interoperability research and legacy migration utilities | **Planned** — supplied migration INF files are reference metadata, not implementations; Flash/ActiveX runtime excluded |
-| 9 | Virtualization, developer SDK, compilers, debugging, containers and development tools | **Planned** |
-| 10 | Audio, video, codecs, media framework, capture and device routing | **Planned** |
-| 11 | Graphics acceleration, GPU drivers, game input, controller support and gaming compatibility | **Planned** |
-| 12 | Security architecture, privilege separation, accounts, permissions, encryption, secure updates, firewall and privacy controls | **Planned** |
-| 13 | NEXORA platform ecosystem: package manager, software catalog, signed updates, account/cloud services and AI integration | **Planned** |
-| 14 | Installer, partitioning, disk layout, boot entries, first-run setup, recovery and rollback | **Planned** |
-| 15 | Reproducible build pipeline, CI, unit/integration tests, QEMU boot tests and hardware qualification | **Planned** — previous Linux live-image workflow is not evidence for the native OS |
-| 16 | Documentation, release engineering, support, security response and long-term maintenance | **In progress** — audit and native architecture records exist; release system not implemented |
+| 1 | Complete repository inspection, file inventory, binary provenance, component reuse, risk and licensing audit | **Partially complete** — tracked paths inventoried; remaining payload-by-payload inspection, byte-level SHA-256, signatures and licensing evidence outstanding |
+| 2 | Complete native NEXORA OS, kernel, boot, security, service, desktop, installer and developer architecture | **In progress** — architecture baseline and kernel bootstrap design recorded; detailed subsystem contracts remain |
+| 3 | NEXORA-owned AMD64 kernel: entry, CPU setup, GDT/IDT, exceptions, memory, heap, threads, scheduler, syscalls, logging and hardware discovery | **In progress** — freestanding C/assembly bootstrap, temporary first-GiB identity map and serial diagnostics added; local reconstructed source compile/link smoke passed; repository CI and runtime boot unverified |
+| 4 | Bootloader, UEFI startup, kernel loading/handoff, recovery entries and diagnostics | **In progress** — GRUB 2 / Multiboot2 configuration and ISO recipe added; GRUB validation, ISO build and UEFI/QEMU boot not yet verified |
+| 5 | NEXORA core services: init, service/device/account/session/permission managers, configuration, logging, time, storage, VFS, IPC, diagnostics and power | **Planned** |
+| 6 | NEXORA Desktop and NEXORA Classic shells, window management, launcher, taskbar, notifications, accessibility and input | **Planned** |
+| 7 | NEXORA system applications: settings, file manager, terminal, task/device/network/disk managers, software/update/security/backup/recovery and utilities | **Planned** |
+| 8 | Hardware abstraction and drivers: AMD/Intel CPU, PCIe, USB, SATA/AHCI, NVMe, input, display, graphics, audio, Ethernet, Wi-Fi, Bluetooth, printers and ACPI | **Planned** |
+| 9 | Networking: TCP/IP, IPv4/IPv6, DNS, DHCP, Ethernet, Wi-Fi, Bluetooth, firewall, VPN, diagnostics, sharing, remote access, SSH, FTP, SFTP and WebDAV | **Planned** |
+| 10 | Administration and advanced tools: AdminPack capability analysis, PowerShell interoperability research, FTP/WebDAV, deployment, migration, user/device/network/storage administration and recovery | **Planned** — legacy INF files are reference metadata, not working implementations; Flash/ActiveX excluded |
+| 11 | Virtualization and developer platform: hypervisor strategy, virtual disks/networks, containers, compilers, debugger, Git, SDK, APIs and build automation | **Planned** |
+| 12 | Audio, video and multimedia: audio drivers/routing, codecs, playback, recording, capture, metadata and media applications | **Planned** |
+| 13 | Graphics and gaming: GPU drivers, 2D/3D interfaces, Vulkan evaluation, display management, controllers, compatibility and performance tools | **Planned** |
+| 14 | Security and privacy: isolation, accounts, ACLs, secure services, firewall, app permissions, signed packages/updates, encryption, audit and vulnerability response | **Planned** |
+| 15 | Installer, deployment and recovery: bootable media, partitioning, filesystems, system deployment, boot entries, first run, repair, backup, restore, upgrade and rollback | **Planned** |
+| 16 | Package manager, software ecosystem, signed repositories, dependency resolution, update delivery, SDK, documentation portal, CI/CD, releases and long-term maintenance | **Planned** |
 
 ## Immediate execution order
 
-1. Finish classifying the existing Windows setup-media files without deleting or overwriting them.
-2. Establish a pinned AMD64 cross-toolchain and dependency/license manifest.
-3. Implement a minimal NEXORA-owned kernel and bootloader handoff.
-4. Build the kernel reproducibly and boot it in QEMU with serial diagnostics.
-5. Add CPU exceptions, interrupts, memory management, timer, scheduler and kernel threads.
-6. Establish user/kernel separation, system calls, init and a first user process.
-7. Add device model, storage, VFS and basic filesystem.
-8. Add networking, graphics, input, audio and additional hardware drivers.
-9. Build core services and system applications.
-10. Build the NEXORA Desktop and Classic sessions.
-11. Add package management, secure updates, installer and recovery.
-12. Expand compatibility, virtualization, gaming, multimedia and enterprise features.
+1. Run the new native kernel build in GitHub Actions and inspect every job log.
+2. Repair compile, link, GRUB, ISO or UEFI boot failures before adding dependent kernel features.
+3. Implement IDT, exception stubs, panic reporting and CPU feature detection.
+4. Parse the full Multiboot2 memory map and reserve kernel/bootloader memory.
+5. Implement physical page-frame allocation, virtual memory and kernel heap.
+6. Add APIC/PIC handling, timer, interrupt-safe logging, kernel threads and scheduling.
+7. Define a stable syscall ABI, privilege transition, init and first user process.
+8. Add device model, PCI enumeration, storage, VFS and basic filesystems.
+9. Add networking, graphics, input, audio and additional drivers.
+10. Build core services, applications, desktop sessions, installer, package manager and recovery.
+11. Add virtualization, multimedia, gaming, security hardening and compatibility only after their foundations are testable.
 
-## Phase completion gate
+## Phase acceptance gates
 
-A phase is not complete merely because files or documentation were added. Each phase must include:
+A phase is not complete merely because a folder, design, document or configuration file exists. Every phase requires:
 
-- Committed source and configuration changes.
-- Build instructions and pinned dependencies.
-- Automated checks appropriate to the phase.
-- Runtime tests on the intended target (QEMU first, then physical hardware where relevant).
-- Logs, test results, artifact hashes and known limitations.
-- A clear owner-review point before destructive changes or release promotion.
+- Committed source and configuration.
+- Reproducible dependency/toolchain records.
+- Build and static checks appropriate to the component.
+- Runtime tests on the intended target, QEMU first where practical.
+- Logs, hashes, test results, known limitations and review evidence.
+- No unresolved critical failure in a prerequisite subsystem.
 
-## Repository safety rules
+## Preservation and safety rules
 
-- Continue development on `nexora/development`; preserve `main`.
-- Preserve supplied legacy files until a path-level classification and disposition decision exists.
-- Do not treat proprietary Windows binaries as reusable source code.
-- Do not bundle assets or binaries unless provenance and redistribution rights are established.
-- Keep the previous `nexora-linux/` live-image experiment isolated and inactive; it is not the selected NEXORA architecture.
-- Do not claim that NEXORA boots, installs, supports hardware, or is production-ready until tests demonstrate those claims.
+- Continue on nexora/development; preserve main.
+- Preserve supplied Windows installation-media files and repository history until a documented disposition exists.
+- Do not treat Windows executables, DLLs, EFI binaries or migration INF files as source code for NEXORA.
+- Do not redistribute proprietary or unverified binaries.
+- Do not bundle Adobe Flash or unsafe ActiveX runtimes.
+- Keep the previous nexora-linux live-image experiment isolated; it is not the native NEXORA kernel.
+- A local compiler smoke check is not a repository CI pass. An ELF artifact is not an ISO. An ISO is not proof of boot. A QEMU boot is not hardware certification.
