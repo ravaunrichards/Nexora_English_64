@@ -7,7 +7,7 @@
 
 ## Repository inventory
 
-The baseline recursive Git tree contained 2,093 entries (1,891 blobs and 202 trees). The native-kernel work added 11 tracked files and nine directory paths. Five audit deliverables were then added. The repository therefore has 1,908 tracked file paths, 211 directory paths and 2,119 total tracked entries. COMPLETE-FILE-INVENTORY.csv records 1,906 file paths, excluding that inventory itself and this audit narrative to avoid self-referential Git object hashes.
+The baseline recursive Git tree contained 2,093 entries (1,891 blobs and 202 trees). The native-kernel work added 11 tracked files and nine directory paths. Five audit deliverables were then added. The repository therefore has 1,909 tracked file paths, 212 directory paths and 2,121 total tracked entries. COMPLETE-FILE-INVENTORY.csv records 1,907 file paths, excluding that inventory itself and this audit narrative to avoid self-referential Git object hashes.
 
 The machine-readable file-only inventory is COMPLETE-FILE-INVENTORY.csv. The prior recursive Git tree inventory remains available as NEXORA-ENGLISH-X64-TREE-INVENTORY.csv. Git object SHA values are Git blob identifiers, not SHA-256 content digests. The inventory's SHA-256 and payload-review columns remain pending until byte-level downloads and inspection are performed.
 
