@@ -3,13 +3,13 @@
 **Repository:** ravaunrichards/Nexora_English_64  
 **Branch:** nexora/development  
 **Audited tree commit:** 43445b5cfe38dbc66195046dfef8c28f0dd0c4ef  
-**Audit status:** Path inventory complete; payload, binary provenance and license review incomplete.
+**Audit status:** Tracked-path inventory is complete at the recorded baseline; the generated file-only inventory excludes itself and this audit narrative to avoid self-referential hashes. Payload, binary provenance and license review remain incomplete.
 
 ## Repository inventory
 
-The baseline recursive Git tree contained 2,093 entries (1,891 blobs and 202 trees). The native-kernel work added 11 tracked files and nine directory paths. The current inventory therefore records 1,902 file paths, 211 directory paths and 2,113 total tracked entries. The baseline tracked byte count was 171,164,920; the 11 additions contribute 14,319 bytes, for 171,179,239 bytes at this audit point.
+The baseline recursive Git tree contained 2,093 entries (1,891 blobs and 202 trees). The native-kernel work added 11 tracked files and nine directory paths. Five audit deliverables were then added. The repository therefore has 1,907 tracked file paths, 211 directory paths and 2,118 total tracked entries. COMPLETE-FILE-INVENTORY.csv records 1,905 file paths, excluding that inventory itself and this audit narrative to avoid self-referential Git object hashes.
 
-The machine-readable file-only inventory is COMPLETE-FILE-INVENTORY.csv. The prior recursive Git tree inventory remains available as NEXORA-ENGLISH-X64-TREE-INVENTORY.csv. Git object SHA values are Git blob identifiers, not SHA-256 content digests.
+The machine-readable file-only inventory is COMPLETE-FILE-INVENTORY.csv. The prior recursive Git tree inventory remains available as NEXORA-ENGLISH-X64-TREE-INVENTORY.csv. Git object SHA values are Git blob identifiers, not SHA-256 content digests. The inventory's SHA-256 and payload-review columns remain pending until byte-level downloads and inspection are performed.
 
 ## Root and major areas
 
