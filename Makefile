@@ -17,10 +17,12 @@ $(BUILD_DIR)/boot.o: kernel/arch/x86_64/boot.S | $(BUILD_DIR)
 	$(AS) $(ASFLAGS) -c "$<" -o "$@"
 $(BUILD_DIR)/multiboot2_header.o: kernel/boot/multiboot2_header.S | $(BUILD_DIR)
 	$(AS) $(ASFLAGS) -c "$<" -o "$@"
+$(BUILD_DIR)/isr.o: kernel/interrupts/isr.S | $(BUILD_DIR)
+	$(AS) $(ASFLAGS) -c "$<" -o "$@"
 $(BUILD_DIR)/kernel.o: kernel/core/kernel.c | $(BUILD_DIR)
 	$(CC) $(CFLAGS) -c "$<" -o "$@"
-$(KERNEL): $(BUILD_DIR)/boot.o $(BUILD_DIR)/multiboot2_header.o $(BUILD_DIR)/kernel.o kernel/linker.ld
-	$(LD) $(LDFLAGS) -o "$@" $(BUILD_DIR)/multiboot2_header.o $(BUILD_DIR)/boot.o $(BUILD_DIR)/kernel.o
+$(KERNEL): $(BUILD_DIR)/boot.o $(BUILD_DIR)/multiboot2_header.o $(BUILD_DIR)/isr.o $(BUILD_DIR)/kernel.o kernel/linker.ld
+	$(LD) $(LDFLAGS) -o "$@" $(BUILD_DIR)/multiboot2_header.o $(BUILD_DIR)/boot.o $(BUILD_DIR)/isr.o $(BUILD_DIR)/kernel.o
 	grub-file --is-x86-multiboot2 "$@"
 	readelf -h "$@" | grep -q 'Advanced Micro Devices X86-64'
 kernel: $(KERNEL)
