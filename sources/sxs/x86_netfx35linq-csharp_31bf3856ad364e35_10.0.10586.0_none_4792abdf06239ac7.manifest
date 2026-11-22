@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="NetFx35 - Linq component" displayName="NetFx35 - Linq NetFx35Linq-CSharp" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx35Linq-CSharp" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <file name="csc.rsp" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v3.5\" sourceName="csc.rsp" sourcePath="Win\Microsoft.NET\Framework\v3.5\" importPath="$(build.nttree)\netfx35linq\Win\Microsoft.NET\Framework\v3.5\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">dMjTR/d2b+l64O9RAhnqwAjTpymjj5PomC/pBteN1jg=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="csc.exe" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v3.5\" sourceName="csc.exe" sourcePath="Win\Microsoft.NET\Framework\v3.5\" importPath="$(build.nttree)\netfx35linq\Win\Microsoft.NET\Framework\v3.5\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">C8sf8Y4W1/ulVYapP8iNKJVwjBGs0PZ0pnP1NnViNmk=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="csc.exe.config" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v3.5\" sourceName="csc.exe.config" sourcePath="Win\Microsoft.NET\Framework\v3.5\" importPath="$(build.nttree)\netfx35linq\Win\Microsoft.NET\Framework\v3.5\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">Jnbt9AKZ9S8knOFeodpiHIAZNkuFZHxUuf6iq9uoVWU=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file name="cscompui.dll" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v3.5\1033\" sourceName="cscompui.dll" sourcePath="Win\Microsoft.NET\Framework\v3.5\1033\" importPath="$(build.nttree)\netfx35linq\Win\Microsoft.NET\Framework\v3.5\1033\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">k69hCSRLHWVCDP2AZqVY/WYp0nqAizbNfXzdUssjkXA=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

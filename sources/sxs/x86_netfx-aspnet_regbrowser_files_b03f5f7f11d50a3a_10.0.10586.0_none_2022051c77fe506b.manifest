@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-ASPNET_REGBROWSER_FILES" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-ASPNET_REGBROWSER_FILES" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="15dde88ed7eae7e8a9372f3392a4ab9f8d70424b" hashalg="SHA1" name="ericsson.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="ericsson.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">EC4YP5JTtL+z4u7eeHaCQivIojl1whyOYJfYA4zLfaA=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="ce88a9d5ed864f3acc5aa1de1cf3511fb6db8ee8" hashalg="SHA1" name="Default.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="Default.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">w7r7/HiFs33pg6E4NhksBB/vW8dgYB1zICMCZdR43LI=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="7eefb7d0bc051ea754434ec0cebdb9d1b56b4638" hashalg="SHA1" name="opera.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="opera.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">4/NIoMx4I4Bs+IygBsrXayu2IomUlIlbdVvyrhUDKS8=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="73081bf648f732feabeaabbf98e6b81acc5d66bd" hashalg="SHA1" name="MME.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="MME.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">ySISa0f+FpCyHUJ6anH2cV7A3eWUq2+xPez6o5c8txs=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="2d6997128e7510f47a5ad11fb300212e9d164b85" hashalg="SHA1" name="mozilla.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="mozilla.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">2golBF97Ggo1+SEqkk5W5l8QYuSKInwV0P9a556F2So=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="109f0b39fa9b763513af6fa95002dbeb76e946ff" hashalg="SHA1" name="jphone.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="jphone.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">A+kNmpO1sEWv/e2GlSYgs/HbYKaHj2Fzt5plBeSv1vM=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="e90bb720a36e0c7d5a177d215c363a886672b389" hashalg="SHA1" name="ie.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="ie.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">J7YD3pC1RuZCVaee1K/+2kzxAvSsjf53ODKqjIo9GVQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="8e6b6884fe92a1c8b6df2f28e4f038874a22fd12" hashalg="SHA1" name="winwap.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="winwap.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">z5dtMrd9bnjpHy/6JnQ1tAIuBY5cxbjrfJ05IRgkOYQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="87b2a50fbefe8bb8b85cbb0ccdf66df9a01e156d" hashalg="SHA1" name="cassio.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="cassio.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">erXvqAV4nwJDJvGz4XuYKTJGnwxjg/pfyVX4jPmjfao=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="fbee1350a67e0444eb8152b23c364a4d7f4e8e20" hashalg="SHA1" name="pie.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="pie.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">IC7oDsksm3SojQUtBWk617wkPgecw3RQ99lqkAHyum0=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="79ee10557d3406b176666309e60a22aa6d5a0704" hashalg="SHA1" name="nokia.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="nokia.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">JIq9lBl5K9TulmLPGIZLkbXxoLouzWWJdNv1CRfSe+c=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="7c98e4316eed79be4b392b717ae74eca77321944" hashalg="SHA1" name="netscape.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="netscape.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">3s46p2U551MYe3/wPpFfPyOFidnvpkaA5Y3Jwtj9mac=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="2eb7247ddda9453f22ab2f8d86d6bf4dd3ea19ec" hashalg="SHA1" name="legend.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="legend.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">LE8PaU3ISSbxy16xQcH8bFmNxtYBJmn9Gqvk0igmdQ0=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="0be710e28a1fc8010e95b249edd80e7d7955d1c6" hashalg="SHA1" name="goAmerica.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="goAmerica.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">eSh/bQPIYB+lWUwDIces3znKDN4v6/W6VHQ/ycutNT0=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="5b75ad8747518007c7d5780ea221ce9fdcca41e9" hashalg="SHA1" name="openwave.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="openwave.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">+JGkEfYJ1V5BUVcrjI7FLKhKGIA44ONptxfTxISTaqI=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="86d4f0429e97809312a8d5b1fceb4f57f5942a12" hashalg="SHA1" name="gateway.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="gateway.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">xalpQI8YRAOAfb/CdUQscbJ9xMNDwHo29xjMnhPFLmY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="6d39895772426adfca9f0932f1c90a2af74b3a6c" hashalg="SHA1" name="EZWap.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="EZWap.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">PsrGFfaepnzmk8VayA2W0hCV/fdva9+0wKw73o9Jvi4=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="de8286a926d2e46855bb0000a10a7a1cb8295f2a" hashalg="SHA1" name="Jataayu.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="Jataayu.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">ZZcNUY/tsCKLK7PN+P0JHNukTKIp1gYN/YjCOgXUIzw=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="d43c82c7df74ca1402f2dd977582b655713279dc" hashalg="SHA1" name="webtv.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="webtv.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">Bx/NIlPbLIppfRvto+v/T4aNebjaGWdaWOBz1KJClpY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="c58a5421a39b6b204cfab436e746d4c817bf3e89" hashalg="SHA1" name="docomo.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="docomo.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">X1RWzFmWjudqYPMJ7enbBVxENzmRL/gEH29Eh53W4Vo=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="4f3ee877c703b5019e260fe9df83098c3055ec49" hashalg="SHA1" name="palm.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="palm.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">EOGX5KvHPGQlITU3xUP8FnRMWtMeDIHZMQkKBofthwU=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="4ffecf8829d915cdc7ce8fa76e892fa02ae872fd" hashalg="SHA1" name="avantgo.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="avantgo.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">DxsH6V8GzOYiRSZl6b1Z5WX6MnyRLGLrtxHPMJ08hHY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="6ff1bc3eaa1ef8e58bb6eb56e15ca996460ee893" hashalg="SHA1" name="generic.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="generic.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">dJwMaZ1XaW2a+Ix3pkeQqhFl8XyF/sDhFu0ZvqWqfqI=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="e5c20c7da2247dbf5ec815d04da31aa7a49af553" hashalg="SHA1" name="panasonic.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="panasonic.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">+NSdd7FHZmqyfSORn+QMGZLfkpdYleFvGwrUISb11MQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="c00efee822cb164ec2972c9686caecdf5b8423a3" hashalg="SHA1" name="xiino.browser" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\CONFIG\Browsers\" sourceName="xiino.browser" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\CONFIG\Browsers\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">pP5mXQ9UcBSFiQ9kwvuhHCV4NRvTYQSOuUiFcBztN1o=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="#MutableFileDefaultSecurityDescriptor" sddl="O:SYG:SYD:AIS:" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>
