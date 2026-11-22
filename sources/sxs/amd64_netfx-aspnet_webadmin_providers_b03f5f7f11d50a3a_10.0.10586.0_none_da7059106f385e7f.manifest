@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-ASPNET_WEBADMIN_PROVIDERS" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-ASPNET_WEBADMIN_PROVIDERS" version="10.0.10586.0" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="92d6ef7a0a4e0e27011d53bb2f2e9a90d520afe5" hashalg="SHA1" name="ProviderList.ascx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework64\v2.0.50727\ASP.NETWebAdminFiles\Providers\" sourceName="ProviderList.ascx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">dQ+TyHM29Zq3G+/djz9lghSVmQaXOTC4bkfjmzSW8Ko=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="ada1380445e84adcf8a9a252f9cd03f645deee9b" hashalg="SHA1" name="chooseProviderManagement.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework64\v2.0.50727\ASP.NETWebAdminFiles\Providers\" sourceName="chooseProviderManagement.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">f37LthjhCtZgmneQd249fz64awwClXzcV7HTGv0APMw=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="4bde039ba8b05fabf07ac9d0759525d78244b08f" hashalg="SHA1" name="ManageProviders.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework64\v2.0.50727\ASP.NETWebAdminFiles\Providers\" sourceName="ManageProviders.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">tDCqNrV+NQwqZKYkoxNO4RqjJT1PsGVBN/ICfwW1FoQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="50f1abba2d2af2152d35b47cb311f2475da4bdab" hashalg="SHA1" name="ManageConsolidatedProviders.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework64\v2.0.50727\ASP.NETWebAdminFiles\Providers\" sourceName="ManageConsolidatedProviders.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">HqSZEV850R0dVHu8R2s991X35sNZKxA6C6DI2Ojo8uk=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="#MutableFileDefaultSecurityDescriptor" sddl="O:SYG:SYD:AIS:" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

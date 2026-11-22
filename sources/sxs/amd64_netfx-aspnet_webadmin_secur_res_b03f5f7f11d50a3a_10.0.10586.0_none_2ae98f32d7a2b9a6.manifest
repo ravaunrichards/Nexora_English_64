@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-ASPNET_WEBADMIN_SECUR_RES" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-ASPNET_WEBADMIN_SECUR_RES" version="10.0.10586.0" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="6d8af96847e6099eaed4bf5b9e38203d94e0447d" hashalg="SHA1" name="security0.aspx.resx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework64\v2.0.50727\ASP.NETWebAdminFiles\Security\App_LocalResources\" sourceName="security0.aspx.resx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">WMlXviYbU1TYu+5slfjz9N/LEuwsD4Un6zbIVwNkVHc=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="a8ad3226603683beccaa6ea1049366057d269ef6" hashalg="SHA1" name="setUpAuthentication.aspx.resx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework64\v2.0.50727\ASP.NETWebAdminFiles\Security\App_LocalResources\" sourceName="setUpAuthentication.aspx.resx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">zJmBjLdUKpPq9wM6cBhvumWinliFiR7lKNkqy1pDtCE=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="a376187c796a765616aeecc10ba30bd460392add" hashalg="SHA1" name="security.aspx.resx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework64\v2.0.50727\ASP.NETWebAdminFiles\Security\App_LocalResources\" sourceName="security.aspx.resx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">/P3tOgC/ZcGum1lFTs52ZnCZoFx0KdnP4uP/gyfWiq8=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="#MutableFileDefaultSecurityDescriptor" sddl="O:SYG:SYD:AIS:" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

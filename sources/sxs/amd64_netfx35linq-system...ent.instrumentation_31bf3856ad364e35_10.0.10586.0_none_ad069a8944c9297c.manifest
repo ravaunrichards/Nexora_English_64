@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="NetFx35 - Linq component" displayName="NetFx35 - Linq NetFx35Linq-System.Management.Instrumentation" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx35Linq-System.Management.Instrumentation" version="10.0.10586.0" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <file name="System.Management.Instrumentation.dll" destinationPath="$(runtime.programFiles)\Reference Assemblies\Microsoft\Framework\v3.5\" sourceName="System.Management.Instrumentation.dll" sourcePath="Program_Files\Reference_Assemblies\Microsoft\Framework\v3.5\" importPath="$(build.nttree)\netfx35linq\Program_Files\Reference_Assemblies\Microsoft\Framework\v3.5\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">pzc78YiWb/uGAlmeqgwy7FoHvkugD96hD8oRkLP85jY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{54D8502C-527D-43F7-A506-A9DA075E229C}\InprocServer32">
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Both" />
+      <registryValue name="" valueType="REG_SZ" value="$(runtime.system32)\mscoree.dll" />
+      <registryValue name="Class" valueType="REG_SZ" value="System.Management.Instrumentation.ManagedCommonProvider" />
+      <registryValue name="Assembly" valueType="REG_SZ" value="System.Management.Instrumentation, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <registryValue name="RuntimeVersion" valueType="REG_SZ" value="v2.0.50727" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{54D8502C-527D-43F7-A506-A9DA075E229C}\InprocServer32\3.5.0.0">
+      <registryValue name="Class" valueType="REG_SZ" value="System.Management.Instrumentation.ManagedCommonProvider" />
+      <registryValue name="Assembly" valueType="REG_SZ" value="System.Management.Instrumentation, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <registryValue name="RuntimeVersion" valueType="REG_SZ" value="v2.0.50727" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{54D8502C-527D-43F7-A506-A9DA075E229C}">
+      <registryValue name="" valueType="REG_SZ" value="System.Management.Instrumentation.ManagedCommonProvider" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+          <securityDescriptorDefinition name="WRP_REGKEY_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;CI;GA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;CI;GR;;;SY)(A;CI;GR;;;BA)(A;CI;GR;;;BU)(A;CI;GR;;;S-1-15-2-1)" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+  <runtime xmlns="urn:schemas-microsoft-com:asm.v2" imageVersion="v2.0.50727" />
+</assembly>
