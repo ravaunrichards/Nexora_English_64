@@ -11,6 +11,7 @@ Initial NEXORA-owned freestanding AMD64 kernel bootstrap sources and an automate
 | Freestanding C kernel entry | Source compiled in a local reconstructed snapshot; repository CI pending |
 | Multiboot2 header | Source linked as ELF64 AMD64; GRUB artifact validation pending |
 | 32-bit to 64-bit bootstrap | Source compiled; runtime validation pending |
+| IDT and CPU exception handlers 0-31 | Source compiled and linked; runtime exception injection pending |
 | Temporary 1 GiB identity map | Source added; not production VM |
 | COM1 serial diagnostics | Source compiled; runtime validation pending |
 | CPU vendor and long-mode capability reporting | Source added and compiled; runtime validation pending |
