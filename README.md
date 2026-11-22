@@ -1,38 +1,39 @@
 # NEXORA English x64
 
-NEXORA is being developed as an Ubuntu-based, 64-bit desktop operating system with KDE Plasma.
+**NEXORA is an independent operating-system project for AMD64/x86-64.** Its goal is to develop a NEXORA-owned kernel, boot path, system services, desktop, installer, security model, and application platform.
+
+NEXORA is not an Ubuntu respin, is not a renamed Windows installation, and does not use the Linux kernel as its operating-system core.
 
 ## Repository status
 
-The original repository contains Windows installation-media files. Those files are preserved unchanged as historical input; they are not a Linux kernel, Linux distribution source tree, or a working NEXORA installer. Active Linux development is isolated under [`nexora-linux/`](nexora-linux/).
+The repository currently contains a large Windows installation-media collection alongside project documentation and earlier experimental Linux live-image work. These existing files are retained as project input and historical material. They are **not** a native NEXORA kernel or complete operating system.
 
-The first implementation target is a bootable Ubuntu 24.04 LTS (Noble) live desktop image for AMD64. This is a development baseline, not a claim that every planned operating-system feature is complete.
+The complete tracked-path inventory is recorded in [the repository audit](docs/audits/NEXORA-ENGLISH-X64-COMPLETE-TREE-AUDIT.md) and [the machine-readable inventory](docs/audits/NEXORA-ENGLISH-X64-TREE-INVENTORY.csv). The inventory covers every tracked path; it does not claim every binary has been reverse-engineered or licensed for redistribution.
 
-## Build
+## Native architecture
 
-On a clean Ubuntu 24.04 AMD64 machine with internet access:
+The approved engineering direction is a NEXORA-owned, freestanding AMD64 kernel developed independently of Linux and Windows. A documented, replaceable bootloader may be used to load the kernel; using a boot protocol does not make the bootloader the NEXORA kernel.
 
-```bash
-git clone https://github.com/ravaunrichards/Nexora_English_64.git
-cd Nexora_English_64
-git switch nexora/development
-bash scripts/check-source.sh
-bash scripts/build-iso.sh
-```
+Read [NEXORA Native OS Architecture](docs/architecture/NEXORA-NATIVE-OS-ARCHITECTURE.md) for the kernel strategy, subsystem boundaries, repository layout, build stages, and verification gates.
 
-The ISO is written to `build/nexora-live-build/live-image-amd64.hybrid.iso`. See [building](docs/BUILDING.md) and [testing](docs/TESTING.md).
+## Development principles
 
-## Development rules
+- Preserve the original repository history and all supplied files until each is classified and an explicit disposition is recorded.
+- Develop on `nexora/development`; do not modify `main` without approval.
+- Build NEXORA-owned components rather than relabeling another operating system.
+- Reuse existing files only when their technical role, provenance, compatibility, and license are verified.
+- Treat Windows setup executables, DLLs, EFI binaries, fonts, and manifests as untrusted legacy inputs until individually assessed.
+- Do not copy proprietary Microsoft binaries into a redistributable NEXORA image without the necessary rights.
+- Do not reintroduce Adobe Flash/ActiveX as a bundled runtime; it is obsolete and unsafe. Preserve its migration metadata for historical analysis only.
+- Mark a feature complete only after implementation and reproducible test evidence.
+- Never claim a bootable, installable, or production-ready OS until the corresponding build and tests pass.
 
-- Preserve the existing repository history and legacy files.
-- Build in the `nexora/development` branch until the owner approves a release.
-- Prefer supported Ubuntu packages over copied proprietary Windows binaries.
-- Do not reintroduce Adobe Flash; it is obsolete and unsafe.
-- Mark a feature complete only after implementation and recorded test evidence.
-- Never describe an image as installable unless an installer has actually been integrated and tested.
+## Current milestone
 
-## Architecture and progress
+**Milestone 0 — repository preservation and native architecture definition.** The next implementation milestone is a minimal NEXORA-owned AMD64 kernel that boots in an emulator, prints diagnostic output, and has automated build/boot tests. This is a milestone target, not a claim that it already exists.
 
-- [Linux architecture](docs/architecture/NEXORA-LINUX-ARCHITECTURE.md)
-- [Development roadmap](docs/ROADMAP.md)
-- [Baseline repository audit](docs/audits/PHASE-1-REPOSITORY-BASELINE.md)
+## Legacy and experimental material
+
+- `boot/`, `efi/`, `bootmgr*`, `setup.exe`, `sources/`, and `support/`: supplied Windows setup-media material; inspect, classify, and preserve.
+- `nexora-linux/` and its related live-image scripts/workflow: earlier experiment, not the selected NEXORA architecture. It is retained for history and is not the active build target.
+- `docs/audits/`: tracked-tree and content-review records.
