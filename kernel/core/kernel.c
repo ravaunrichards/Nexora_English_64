@@ -152,6 +152,64 @@ static void inspect_boot_info(uint64_t address) {
         p = (p + size + 7u) & ~(uintptr_t)7u;
     }
 }
+
+struct idt_gate {
+    uint16_t offset_low;
+    uint16_t selector;
+    uint8_t ist;
+    uint8_t attributes;
+    uint16_t offset_middle;
+    uint32_t offset_high;
+    uint32_t reserved;
+} __attribute__((packed));
+struct idtr {
+    uint16_t limit;
+    uint64_t base;
+} __attribute__((packed));
+struct exception_frame {
+    uint64_t r15, r14, r13, r12, r11, r10, r9, r8;
+    uint64_t rbp, rdi, rsi, rdx, rcx, rbx, rax;
+    uint64_t vector, error_code, rip, cs, rflags;
+};
+static struct idt_gate idt[256] __attribute__((aligned(16)));
+extern void (*isr_stub_table[32])(void);
+
+static void idt_init(void) {
+    for (uint32_t i = 0; i < 32; ++i) {
+        uintptr_t handler = (uintptr_t)isr_stub_table[i];
+        idt[i].offset_low = (uint16_t)handler;
+        idt[i].selector = 0x08;
+        idt[i].ist = 0;
+        idt[i].attributes = 0x8e;
+        idt[i].offset_middle = (uint16_t)(handler >> 16);
+        idt[i].offset_high = (uint32_t)(handler >> 32);
+        idt[i].reserved = 0;
+    }
+    struct idtr descriptor = {
+        .limit = (uint16_t)(sizeof(idt) - 1),
+        .base = (uint64_t)(uintptr_t)idt
+    };
+    __asm__ volatile ("lidt %0" : : "m"(descriptor));
+}
+__attribute__((noreturn))
+void nexora_exception_handler(struct exception_frame *frame) {
+    write_serial("\nNEXORA: FATAL CPU EXCEPTION vector=");
+    write_hex(frame->vector);
+    write_serial(" error=");
+    write_hex(frame->error_code);
+    write_serial(" rip=");
+    write_hex(frame->rip);
+    write_serial("\n");
+    if (frame->vector == 14) {
+        uint64_t fault_address;
+        __asm__ volatile ("mov %%cr2, %0" : "=r"(fault_address));
+        write_serial("NEXORA: page-fault address=");
+        write_hex(fault_address);
+        write_serial("\n");
+    }
+    halt();
+}
+
 void kernel_main(uint64_t magic, uint64_t info_address) {
     serial_init();
     write_serial("\nNEXORA ENGLISH x64 — native kernel bootstrap\n");
