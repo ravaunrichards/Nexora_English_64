@@ -18,7 +18,7 @@ Initial NEXORA-owned freestanding AMD64 kernel bootstrap sources and an automate
 | Multiboot2 memory-map summary and framebuffer metadata | Source added and compiled; runtime validation pending |
 | GRUB UEFI ISO recipe | Source added; image build pending |
 | QEMU + OVMF smoke test | Automated; not yet run |
-| Exceptions, IDT, allocator, scheduler, syscalls | Not implemented |
+| Physical/virtual allocators, scheduler and syscalls | Not implemented |
 | Userland, services, drivers, desktop, installer | Not implemented |
 
 A local compiler/linker smoke check passed for a reconstructed copy of the committed source snapshot using GCC 14.2.0 and GNU ld 2.44. The updated kernel, including CPUID vendor/long-mode reporting and Multiboot2 memory-map summary parsing, compiled and linked. The resulting ELF was ELF64 AMD64 with entry point 0x101000 and a 24-byte Multiboot2 header at file offset 0x1000; a separate byte-level check verified its checksum and end tag. See [the local compile report](audits/NATIVE-KERNEL-LOCAL-COMPILE-REPORT.md). This is not evidence of a repository checkout build or runtime boot.
