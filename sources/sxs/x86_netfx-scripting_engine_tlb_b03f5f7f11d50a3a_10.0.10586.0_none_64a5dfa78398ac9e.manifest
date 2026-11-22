@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-Scripting_Engine_TLB" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-Scripting_Engine_TLB" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="bc7c402877af1b9fcfa9039d50eab147aefc1615" hashalg="SHA1" name="Microsoft.JScript.tlb" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\" sourceName="Microsoft.JScript.tlb" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">ZdFi/VVvL97ROF+mh6VkA9QdxtJ7gwKLM0bs1zdUC3s=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_CLASSES_ROOT\TypeLib\{D3295D87-D604-11D4-A704-00C04FA137E4}\8.0\">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft_JScript" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\TypeLib\{D3295D87-D604-11D4-A704-00C04FA137E4}\8.0\0\win32\">
+      <registryValue name="" valueType="REG_SZ" value="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\Microsoft.JScript.tlb" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\TypeLib\{D3295D87-D604-11D4-A704-00C04FA137E4}\8.0\FLAGS\">
+      <registryValue name="" valueType="REG_SZ" value="0" />
+    </registryKey>
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+          <securityDescriptorDefinition name="WRP_KEY_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;CI;GA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;CI;GR;;;SY)(A;CI;GR;;;BA)(A;CI;GR;;;BU)(A;CI;GR;;;S-1-15-2-1)" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

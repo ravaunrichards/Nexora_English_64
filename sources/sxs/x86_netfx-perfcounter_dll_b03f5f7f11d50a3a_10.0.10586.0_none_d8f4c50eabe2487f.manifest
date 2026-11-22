@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-PERFCOUNTER_DLL" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-PERFCOUNTER_DLL" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="e24b1f84024232d4f6ba00fca4ae824238e7d610" hashalg="SHA1" name="PerfCounter.dll" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\" sourceName="PerfCounter.dll" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">1vLf4dU2iu5ZY9fil2v96ZcczrR4sgTWvdeQFMlSY6M=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Data\Linkage">
+      <registryValue name="Export" valueType="REG_SZ" value="2e,00,4e,00,45,00,54,00,20,00,43,00,4c,00,52,00,20,00,44,00,61,00,74,00,61,00,00,00,00,00" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Networking\Linkage">
+      <registryValue name="Export" valueType="REG_SZ" value="2e,00,4e,00,45,00,54,00,20,00,43,00,4c,00,52,00,20,00,4e,00,65,00,74,00,77,00,6f,00,72,00,6b,00,69,00,6e,00,67,00,00,00,00,00" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Data\Performance">
+      <registryValue name="IsMultiInstance" valueType="REG_DWORD" value="0x00000001" />
+      <registryValue name="CategoryOptions" valueType="REG_DWORD" value="0x00000001" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Networking\Performance">
+      <registryValue name="IsMultiInstance" valueType="REG_DWORD" value="0x00000001" />
+      <registryValue name="FileMappingSize" valueType="REG_DWORD" value="0x00020000" />
+      <registryValue name="CategoryOptions" valueType="REG_DWORD" value="0x00000003" />
+    </registryKey>
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+          <securityDescriptorDefinition name="WRP_REGKEY_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;CI;GA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;CI;GR;;;SY)(A;CI;GR;;;BA)(A;CI;GR;;;BU)(A;CI;GR;;;S-1-15-2-1)" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

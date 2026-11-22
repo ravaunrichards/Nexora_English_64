@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-SHFUSION_DLL" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-SHFUSION_DLL" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="2641d10bc4f7b01df2cf095d2ce5e1df28988136" hashalg="SHA1" name="shfusion.dll" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\" sourceName="shfusion.dll" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">TvlPYSbJ0ISsncVRolt/txsoTDdzrP+SzxF8FwSFiJk=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{1D2680C9-0E2A-469d-B787-065558BC7D43}\InprocServer32\2.0.50727">
+      <registryValue name="ImplementedInThisVersion" valueType="REG_SZ" value="" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{1D2680C9-0E2A-469D-B787-065558BC7D43}">
+      <registryValue name="InfoTip" valueType="REG_SZ" value=".NET Framework Assemblies" />
+      <registryValue name="" valueType="REG_SZ" value="Fusion Cache" />
+      <securityDescriptor name="WRP_KEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{1D2680C9-0E2A-469d-B787-065558BC7D43}\Server">
+      <registryValue name="" valueType="REG_SZ" value="Shfusion.dll" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{1D2680C9-0E2A-469d-B787-065558BC7D43}\ShellFolder">
+      <registryValue name="Attributes" valueType="REG_BINARY" value="000110F0" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{1D2680C9-0E2A-469d-B787-065558BC7D43}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{1D2680C9-0E2A-469d-B787-065558BC7D43}\InprocServer32">
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Apartment" />
+      <registryValue name="" valueType="REG_SZ" value="$(runtime.system32)\mscoree.dll" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{1D2680C9-0E2A-469d-B787-065558BC7D43}\shellex\ContextMenuHandlers\{1D2680C9-0E2A-469d-B787-065558BC7D43}" />
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+          <securityDescriptorDefinition name="WRP_KEY_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;CI;GA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;CI;GR;;;SY)(A;CI;GR;;;BA)(A;CI;GR;;;BU)(A;CI;GR;;;S-1-15-2-1)" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>
