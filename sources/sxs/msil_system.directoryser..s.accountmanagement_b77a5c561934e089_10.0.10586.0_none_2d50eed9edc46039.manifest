@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="NetFx35 - Linq component" displayName="NetFx35 - Linq System.DirectoryServices.AccountManagement" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="System.DirectoryServices.AccountManagement" version="10.0.10586.0" processorArchitecture="msil" language="neutral" buildType="release" publicKeyToken="b77a5c561934e089" versionScope="nonSxS" />
+  <dependency discoverable="no" resourceType="Resources">
+    <dependentAssembly dependencyType="prerequisite">
+      <assemblyIdentity name="System.DirectoryServices.AccountManagement.Resources" version="10.0.10586.0" processorArchitecture="msil" language="*" buildType="release" publicKeyToken="b77a5c561934e089" versionScope="nonSxS" />
+    </dependentAssembly>
+  </dependency>
+  <file name="System.DirectoryServices.AccountManagement.dll" sourceName="System.DirectoryServices.AccountManagement.dll" sourcePath="Program_Files\Reference_Assemblies\Microsoft\Framework\v3.5\" importPath="$(build.nttree)\netfx35linq\Program_Files\Reference_Assemblies\Microsoft\Framework\v3.5\">
+    <gac xmlns="urn:schemas-microsoft-com:asm.v3" managedversion="3.5.0.0" />
+    <ngen xmlns="urn:schemas-microsoft-com:asm.v3" managedversion="3.5.0.0" parameter="/NoDependencies /queue:3" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">3KYwD3snypJQFIK/ywdCH4myI9mO/0Rmg+Ehyw30feg=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <runtime xmlns="urn:schemas-microsoft-com:asm.v2" imageVersion="v2.0.50727" />
+</assembly>

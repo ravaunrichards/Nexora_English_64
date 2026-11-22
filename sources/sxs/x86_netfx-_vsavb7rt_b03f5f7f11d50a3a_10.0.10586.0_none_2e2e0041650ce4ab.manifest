@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-_VsaVb7rt" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-_VsaVb7rt" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="d2cd89d3a362cff9f6344b41dd3721335b866d91" hashalg="SHA1" name="VsaVb7rt.dll" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\" sourceName="VsaVb7rt.dll" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">WsbpKvyMoko1lpOia9QmZf1eE8GY3EDm2ub1z3wZXJk=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="5c04fc6bffdb11bbaad0e98a2da603ebabb3d4ed" hashalg="SHA1" name="vsavb7.olb" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\" sourceName="vsavb7.olb" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">bHDgY+FwyP7mYbBSBaqn1byWp7gTOhByQcp3ps1WZU0=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A138CF39-2CAE-42c2-ADB3-022658D79F2F}\Programmable" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\VsaVbRT.8.0">
+      <registryValue name="" valueType="REG_SZ" value="VsaVbRT" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A138CF39-2CAE-42c2-ADB3-022658D79F2F}\TypeLib">
+      <registryValue name="" valueType="REG_SZ" value="{4D41D426-01E5-4561-B9E7-7BCED30011A4}" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\VsaVbRT.8.0\CLSID">
+      <registryValue name="" valueType="REG_SZ" value="{A138CF39-2CAE-42c2-ADB3-022658D79F2F}" />
+      <securityDescriptor name="WRP_KEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A138CF39-2CAE-42c2-ADB3-022658D79F2F}\ProgID">
+      <registryValue name="" valueType="REG_SZ" value="VsaVbRT.8.0" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A138CF39-2CAE-42c2-ADB3-022658D79F2F}\Server">
+      <registryValue name="" valueType="REG_SZ" value="VsaVb7rt.dll" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A138CF39-2CAE-42c2-ADB3-022658D79F2F}\Version">
+      <registryValue name="" valueType="REG_SZ" value="8.0" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A138CF39-2CAE-42c2-ADB3-022658D79F2F}">
+      <registryValue name="" valueType="REG_SZ" value="Microsoft Visual Basic Scripting Engine" />
+      <securityDescriptor name="WRP_KEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A138CF39-2CAE-42c2-ADB3-022658D79F2F}\InprocServer32">
+      <registryValue name="" valueType="REG_SZ" value="$(runtime.system32)\MSCorEE.dll" />
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Both" />
+    </registryKey>
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+          <securityDescriptorDefinition name="WRP_KEY_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;CI;GA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;CI;GR;;;SY)(A;CI;GR;;;BA)(A;CI;GR;;;BU)(A;CI;GR;;;S-1-15-2-1)" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

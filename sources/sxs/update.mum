@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." description=".NET Framework 3.5 (includes .NET 2.0 and 3.0)" displayName=".NET Framework 3.5 (includes .NET 2.0 and 3.0)" manifestVersion="1.0" supportInformation="http://support.microsoft.com/?kbid=777777">
+  <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-NetFx3-OnDemand-Package" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="10.0.10586.0"/>
+  <package identifier="Microsoft .NET Framework 3.0 OnDemand" releaseType="OnDemand Pack">
+    <mum2:customInformation xmlns:mum2="urn:schemas-microsoft-com:asm.v3">
+      <OptionalFeatures SchemaVersion="1.0">
+        <SettingsPageOptions Visibility="hidden"/>
+      </OptionalFeatures>
+    </mum2:customInformation>
+    <parent buildCompare="GE" disposition="detect">
+      <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-Foundation-Package" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="10.0.0.0"/>
+    </parent>
+    <parent buildCompare="GE" disposition="detect">
+      <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-ServerCore-Package" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="10.0.0.0"/>
+    </parent>
+    <declareCapability>
+      <capability>
+        <capabilityIdentity name="NetFX3"/>
+      </capability>
+    </declareCapability>
+    <update name="NetFx3-FOD">
+      <component>
+        <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-NetFx3-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="10.0.10586.0" versionScope="nonSxS"/>
+      </component>
+    </update>
+    <update name="NetFX2">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-NetFx2-OC-Package" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="10.0.10586.0"/>
+      </package>
+    </update>
+    <update name="NetFx3-WPF">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-Presentation-Package" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="10.0.10586.0" versionScope="nonSxS"/>
+      </package>
+    </update>
+    <packageExtended packageSize="252987532"/>
+  </package>
+</assembly>
