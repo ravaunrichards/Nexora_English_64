@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-ASPNET_WEBADMIN_IMAGES" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-ASPNET_WEBADMIN_IMAGES" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="511f31e41e564f6220b8a332654010bc96c4d5eb" hashalg="SHA1" name="unSelectedTab_rightCorner.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="unSelectedTab_rightCorner.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">0kQDVmK6DBLQAfv2Gb3zDsRWnCZLmemATgIzmUKhPr8=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="df318bf256425ce3bda38b10def747d53191efca" hashalg="SHA1" name="requiredBang.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="requiredBang.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">bLITNTMeOO7CsnEDrDNCR9/sSW72VYRTuj4Daar6h4E=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="c9266d15bab314b766633eb7b7dad0765c59d517" hashalg="SHA1" name="alert_lrg.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="alert_lrg.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">MYEUPmRy95RNvaDx5GdsOHW6uBRlLnGPZJRka6RQX30=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="570172b4a4cc8a894ee3c72fc0159ab55810a6d5" hashalg="SHA1" name="headerGRADIENT_Tall.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="headerGRADIENT_Tall.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">AlMDf8dobydCTecGEAEe7tgfqKDknfcA2j5OG2p4PkM=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="3d6bc50e18d155c41261435546c028e9bfac5d9d" hashalg="SHA1" name="gradient_onWhite.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="gradient_onWhite.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">Uk0opFuGNd6u8OlsvrZW4w48KjCJUZ08C4fr/hlgxN4=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="70c0f86d13275c907454c37bac1299f3034d7bd0" hashalg="SHA1" name="security_watermark.jpg" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="security_watermark.jpg" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">GNLgyhPmuNe6aQ0gOzzS/OIxMBtZOI3m2lnPaXwzFFA=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="6d58d94d2588688f35c0eb74c4f5ba7efc50c091" hashalg="SHA1" name="gradient_onBlue.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="gradient_onBlue.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">6zY3OfGjVSdQwhnM58NBKrX0N64e1srDtTrfWwYgojI=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="8f7c793eb3e0211270402897666d0c7d21a809ba" hashalg="SHA1" name="folder.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="folder.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">cGlNPMwdUDt0Wzhr8zzxyKNg1hopbeJx5v9RvrjMYwY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="f785cf7a624add9d28a09045777ca5e847cdaf3a" hashalg="SHA1" name="HelpIcon_solid.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="HelpIcon_solid.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">0c/Jfn5E85SVaYk82txPBxkUzM44Uu1B7IdS6BM6tdo=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="f693122fdbf61ca2be102e3c24ebd91235a64625" hashalg="SHA1" name="yellowCORNER.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="yellowCORNER.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">Zj72cFA2KHIP2QJu4dtaUCg4Zhr5nbpvbxB/ASF7wgY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="511f31e41e564f6220b8a332654010bc96c4d5eb" hashalg="SHA1" name="selectedTab_rightCorner.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="selectedTab_rightCorner.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">0kQDVmK6DBLQAfv2Gb3zDsRWnCZLmemATgIzmUKhPr8=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="16c84001f49586daab1eb7042bf2c74755c77183" hashalg="SHA1" name="unSelectedTab_leftCorner.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="unSelectedTab_leftCorner.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">nEHHAlXi62XdTw8ddFLaO2IbhWvUmqVvb+CwpOqA/pE=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="be5a5e151e725aa566002ed1ddddbada735cb9e3" hashalg="SHA1" name="help.jpg" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="help.jpg" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">6vU+aWappWEgo8hecUE5MIDQkkftopFR60i8sclZqds=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="46fbb2926f66469ae85f39082fb46dc868dbedfb" hashalg="SHA1" name="deselectedTab_1x1.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="deselectedTab_1x1.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">+1hZwz9whOkgnpQgbyoTVMTEZuVrnIvcpmgimy/HE90=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="84387bba211b146358fe57c28677ad30dfa259d6" hashalg="SHA1" name="branding_Full2.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="branding_Full2.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">mx0Aj1IhQ1EaEngRt2UwuGY4QqchozZ6J4x7aLZXBg0=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="211b1403eb93087204af8e268c9b0cdf5f073aee" hashalg="SHA1" name="ASPdotNET_logo.jpg" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="ASPdotNET_logo.jpg" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">EG/cFZjjYLwblquqrGMKrVI8K9aZS0DrdB5APSDUa9k=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="40ba6b9fe2910905d64262b5c1838894106febea" hashalg="SHA1" name="image1.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="image1.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">K4lOmCmhnFvGf85v0SeqAcuT0MCuVboYIe1lls/zGQw=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="16c84001f49586daab1eb7042bf2c74755c77183" hashalg="SHA1" name="selectedTab_leftCorner.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="selectedTab_leftCorner.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">nEHHAlXi62XdTw8ddFLaO2IbhWvUmqVvb+CwpOqA/pE=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="46803cb85bdf6ba784ed5c696d5f2f8b0d9094dd" hashalg="SHA1" name="darkBlue_GRAD.jpg" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="darkBlue_GRAD.jpg" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">iqYZLzIFE+OZCdcRVQ4Xng0gjfdTlGJQnX6Z3pzIOxo=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="d184054dac323d54cddbf8eab7846054900001ba" hashalg="SHA1" name="topGradRepeat.jpg" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="topGradRepeat.jpg" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">IbIVbHP3I5xaqenQGU58d87HYR09n3QINUUzGllLVGk=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="d341df1fe1deb9c33ed57143bdec89279aed5c81" hashalg="SHA1" name="image2.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="image2.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">zcxiNiZY9Jh8/icFpPfyNWLf5iOsLtNlgYek7+kG0sE=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="4b567a2ea842cc00af56e4b1f429b0fff35d2c07" hashalg="SHA1" name="aspx_file.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="aspx_file.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">e9ZOLB3/YBkoK8pWoDRWrBHVCP4tMrf9jWJNQKkO5zg=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="70c0f86d13275c907454c37bac1299f3034d7bd0" hashalg="SHA1" name="selectedTab_1x1.gif" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\Images\" sourceName="selectedTab_1x1.gif" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">GNLgyhPmuNe6aQ0gOzzS/OIxMBtZOI3m2lnPaXwzFFA=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="#MutableFileDefaultSecurityDescriptor" sddl="O:SYG:SYD:AIS:" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

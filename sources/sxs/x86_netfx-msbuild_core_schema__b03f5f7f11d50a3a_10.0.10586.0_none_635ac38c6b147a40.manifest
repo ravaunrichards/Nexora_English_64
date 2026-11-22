@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-MSBuild_Core_Schema_" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-MSBuild_Core_Schema_" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="e9f9edc17b81d85cdd15cbaaefedba55fbdea8fd" hashalg="SHA1" name="Microsoft.Build.Core.xsd" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\MSBuild\" sourceName="Microsoft.Build.Core.xsd" sourcePath="Win\Microsoft.NET\Framework\URTInstallPath\MSBuild\" importPath="$(build.nttree)\netfx\Win\Microsoft.NET\Framework\URTInstallPath\MSBuild\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">Djo8OLSHGSiZZShm9/x7DNyRSKJimTNStRgEWCfxygY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="#MutableFileDefaultSecurityDescriptor" sddl="O:SYG:SYD:AIS:" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

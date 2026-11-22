@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-ASPNET_WEBADMIN_RES_RES" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-ASPNET_WEBADMIN_RES_RES" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="816ffc79ecb51b03d8698b2384684a306b8741cd" hashalg="SHA1" name="AppConfigCommon.resx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\App_GlobalResources\" sourceName="AppConfigCommon.resx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">VIBbuA9PHyapdn+KQu5zt/YQuM1qp4uKMN51hbDIddw=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="c0fde2937f170ee298e2562f18ec4bf48b2aee48" hashalg="SHA1" name="GlobalResources.resx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\App_GlobalResources\" sourceName="GlobalResources.resx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">V48oicIlh1d5gW92Ac6g8sTkExLg/mqAESmG9RBy3c8=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="#MutableFileDefaultSecurityDescriptor" sddl="O:SYG:SYD:AIS:" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

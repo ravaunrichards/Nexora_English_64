@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-ASPNET_WEBADMIN_APPCONFIG" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-ASPNET_WEBADMIN_APPCONFIG" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="270daca5c9e1fddc9a106e7cc790da4bff078480" hashalg="SHA1" name="DebugAndTrace.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\AppConfig\" sourceName="DebugAndTrace.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">8LFwSv8qOmInZXTuzW8RwCLmkSWvBtNdEdG58GvtDEI=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="28553f0e0b1184ad3ed4250fc0404cba13b669c0" hashalg="SHA1" name="AppSetting.ascx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\AppConfig\" sourceName="AppSetting.ascx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">VCzLDCL+4RqOlJz+UD0Ve+TfFF8dy7Rxs+0VOO8FSVo=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="324fe8647367156a4198ecb16da8a2549f937815" hashalg="SHA1" name="EditAppSetting.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\AppConfig\" sourceName="EditAppSetting.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">mQtCTZa2GU+K+kUijPAx4pIPKrDQsmTHgn1CZfqoQuY=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="7bfc0edd093539ec7de778aaa9c9d48a1a2fbf03" hashalg="SHA1" name="DefineErrorPage.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\AppConfig\" sourceName="DefineErrorPage.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">tufdH0bQLo99/PZ84AhfnM1eiLOmaN8DXX0t+OT7tgc=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="4d1a5a4e428cb2c2a23a73c591ab101efdde3231" hashalg="SHA1" name="SmtpSettings.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\AppConfig\" sourceName="SmtpSettings.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">yzvaL7uqYhuW3Vn2VEMxREHJ8k6PK1VobV9UcDOYcnQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="d133599c8f38cdd71f75c83d55cb7e196e0036ae" hashalg="SHA1" name="CreateAppSetting.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\AppConfig\" sourceName="CreateAppSetting.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">+kv161f9GW+2nBtviqM9f1JkP2q8Ly35gwmqMOLWizk=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="b094e79fc4fc54a168d39e9f099a46c6da27b343" hashalg="SHA1" name="ManageAppSettings.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\AppConfig\" sourceName="ManageAppSettings.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">E56DjNii/hRud2BhzS87F4nibphH8AMjhDgZCjj4UUc=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="f66e65e093d02106879cc9676d670033607c309d" hashalg="SHA1" name="AppConfigHome.aspx" destinationPath="$(runtime.windows)\Microsoft.NET\Framework\v2.0.50727\ASP.NETWebAdminFiles\AppConfig\" sourceName="AppConfigHome.aspx" sourcePath=".\" importPath="$(build.nttree)\netfx\" writeableType="systemData">
+    <securityDescriptor name="#MutableFileDefaultSecurityDescriptor" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">OvKxCEkgDCc/MDU7Px+qHH52YEZYzocWxFZQw/sVsYo=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="#MutableFileDefaultSecurityDescriptor" sddl="O:SYG:SYD:AIS:" operationHint="replace" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>

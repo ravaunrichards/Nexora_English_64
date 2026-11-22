@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description=".NET Framework component" displayName=".NET Framework NetFx-FW_NETFXPERF_DLL" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx-FW_NETFXPERF_DLL" version="10.0.10586.0" processorArchitecture="x86" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <file name="netfxperf.dll" destinationPath="$(runtime.system32)\" sourceName="netfxperf.dll" sourcePath="Win\System\" importPath="$(build.nttree)\netfx\WindowsBuilt\System\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">BadMeMJ+KZPzDlwRpKMJMs8ENk4nmF7twsZHMDATsvo=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Data\Performance">
+      <registryValue name="Open" valueType="REG_SZ" value="OpenPerformanceData" />
+      <registryValue name="Collect" valueType="REG_SZ" value="CollectPerformanceData" />
+      <registryValue name="Close" valueType="REG_SZ" value="ClosePerformanceData" />
+      <registryValue name="Library" valueType="REG_EXPAND_SZ" value="%systemroot%\system32\netfxperf.dll" />
+      <registryValue name="Counter Types" valueType="REG_BINARY" value="3600350035003300360000003600350035003300360000003600350035003300360000003600350035003300360000003600350035003300360000003600350035003300360000000000" />
+      <registryValue name="Counter Names" valueType="REG_BINARY" value="530071006C0043006C00690065006E0074003A002000430075007200720065006E00740020002300200070006F006F006C0065006400200061006E00640020006E006F006E0070006F006F006C0065006400200063006F006E006E0065006300740069006F006E0073000000530071006C0043006C00690065006E0074003A002000430075007200720065006E00740020002300200070006F006F006C0065006400200063006F006E006E0065006300740069006F006E0073000000530071006C0043006C00690065006E0074003A002000430075007200720065006E00740020002300200063006F006E006E0065006300740069006F006E00200070006F006F006C0073000000530071006C0043006C00690065006E0074003A0020005000650061006B0020002300200070006F006F006C0065006400200063006F006E006E0065006300740069006F006E0073000000530071006C0043006C00690065006E0074003A00200054006F00740061006C002000230020006600610069006C0065006400200063006F006E006E0065006300740073000000530071006C0043006C00690065006E0074003A00200054006F00740061006C002000230020006600610069006C0065006400200063006F006D006D0061006E006400730000000000" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NETFramework\Performance">
+      <registryValue name="Close" valueType="REG_SZ" value="CloseCtrs" />
+      <registryValue name="Collect" valueType="REG_SZ" value="CollectCtrs" />
+      <registryValue name="Open" valueType="REG_SZ" value="OpenCtrs" />
+      <registryValue name="Library" valueType="REG_EXPAND_SZ" value="%systemroot%\system32\mscoree.dll" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\.NET CLR Networking\Performance">
+      <registryValue name="Collect" valueType="REG_SZ" value="CollectPerformanceData" />
+      <registryValue name="Close" valueType="REG_SZ" value="ClosePerformanceData" />
+      <registryValue name="Library" valueType="REG_EXPAND_SZ" value="%systemroot%\system32\netfxperf.dll" />
+      <registryValue name="Counter Types" valueType="REG_BINARY" value="3600350035003300360000003600350037003900320000003600350037003900320000003600350035003300360000003600350035003300360000000000" />
+      <registryValue name="Open" valueType="REG_SZ" value="OpenPerformanceData" />
+      <registryValue name="Counter Names" valueType="REG_BINARY" value="43006F006E006E0065006300740069006F006E0073002000450073007400610062006C00690073006800650064000000420079007400650073002000520065006300650069007600650064000000420079007400650073002000530065006E007400000044006100740061006700720061006D007300200052006500630065006900760065006400000044006100740061006700720061006D0073002000530065006E00740000000000" />
+    </registryKey>
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>
