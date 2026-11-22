@@ -33,7 +33,7 @@ path,type,mode,size_bytes,git_blob_sha,sha256_status,payload_review_status
 "docs/architecture/NEXORA-LINUX-ARCHITECTURE.md",blob,"100644",2385,068b9a9059123a220746f9d2756565f375173cbd,not-computed,pending
 "docs/audits/BINARY-PROVENANCE-REGISTER.csv",blob,"100644",80961,b8a691406b59f517020668d74b3a6c946f50206b,not-computed,pending
 "docs/audits/COMPONENT-REUSE-REGISTER.md",blob,"100644",2729,39c9f076f91c3e1a68c26e0abb3689f9f2ac10bc,not-computed,pending
-"docs/audits/NATIVE-KERNEL-LOCAL-COMPILE-REPORT.md",blob,"100644",2461,1e5d2bb981bd8418bb59148292cdfd0677ddcae3,not-computed,pending
+"docs/audits/NATIVE-KERNEL-LOCAL-COMPILE-REPORT.md",blob,"100644",2461,4fa452244a3b6b5734a087b7ebb905bc340ad9cf,not-computed,pending
 "docs/audits/PHASE-1-REPOSITORY-BASELINE.md",blob,"100644",6103,773614618cca8135ab452d876268e162e8d63ccd,not-computed,pending
 "docs/audits/REPOSITORY-RISK-REPORT.md",blob,"100644",2452,3712d615e545024aa015f43ac3a15ca305686bc7,not-computed,pending
 "docs/BUILDING.md",blob,"100644",1423,86b47cfcd62cdd96111faf0bc6fd1cb9062dc2d3,not-computed,pending
