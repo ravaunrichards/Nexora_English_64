@@ -4,9 +4,9 @@ ISO_ROOT := $(BUILD_DIR)/iso
 KERNEL := $(BUILD_DIR)/nexora-kernel.elf
 ISO := $(BUILD_DIR)/nexora-native-amd64.iso
 CC ?= gcc
-AS ?= gcc
+AS := gcc
 LD ?= ld
-CFLAGS := -std=c11 -O2 -Wall -Wextra -Werror -ffreestanding -fno-builtin -fno-stack-protector -fno-pic -fno-pie -m64 -mno-red-zone -mcmodel=kernel -mno-mmx -mno-sse -mno-sse2
+CFLAGS := -std=c11 -O2 -Wall -Wextra -Werror -ffreestanding -fno-builtin -fno-stack-protector -fno-pic -fno-pie -m64 -mno-red-zone -mcmodel=small -mno-mmx -mno-sse -mno-sse2
 ASFLAGS := -m64 -ffreestanding -fno-pic -fno-pie
 LDFLAGS := -nostdlib -z max-page-size=0x1000 -T kernel/linker.ld
 .PHONY: all kernel iso check clean
