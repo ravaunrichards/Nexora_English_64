@@ -31,7 +31,10 @@ path,type,mode,size_bytes,git_blob_sha,sha256_status,payload_review_status
 "bootmgr.efi",blob,"100644",1147736,db206c655fd7de8d11b5209b2d769b7d3879f582,not-computed,pending
 "docs/architecture/NEXORA-KERNEL-BOOTSTRAP.md",blob,"100644",1804,bebf4cbd11f6b531ef0cea982f72f11a01056c57,not-computed,pending
 "docs/architecture/NEXORA-LINUX-ARCHITECTURE.md",blob,"100644",2385,068b9a9059123a220746f9d2756565f375173cbd,not-computed,pending
+"docs/audits/BINARY-PROVENANCE-REGISTER.csv",blob,"100644",80961,b8a691406b59f517020668d74b3a6c946f50206b,not-computed,pending
+"docs/audits/COMPONENT-REUSE-REGISTER.md",blob,"100644",2729,39c9f076f91c3e1a68c26e0abb3689f9f2ac10bc,not-computed,pending
 "docs/audits/PHASE-1-REPOSITORY-BASELINE.md",blob,"100644",6103,773614618cca8135ab452d876268e162e8d63ccd,not-computed,pending
+"docs/audits/REPOSITORY-RISK-REPORT.md",blob,"100644",2452,3712d615e545024aa015f43ac3a15ca305686bc7,not-computed,pending
 "docs/BUILDING.md",blob,"100644",1423,86b47cfcd62cdd96111faf0bc6fd1cb9062dc2d3,not-computed,pending
 "docs/DEVELOPMENT-STATUS.md",blob,"100644",1667,7f43d7840c28915c7b617a5d8e3d51f3294219a3,not-computed,pending
 "docs/ROADMAP.md",blob,"100644",2587,062db76a16a828bfaa455213e31b09dd30d013f6,not-computed,pending
