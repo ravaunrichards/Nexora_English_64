@@ -1,4 +1,5 @@
 path,extension,size_bytes,git_blob_sha,sha256,payload_format,architecture,version,publisher,signature,license_redistribution,classification,reuse_disposition,review_status
+"boot/bcd",no-extension,16384,86e647c42bd91f526287a9ecc93ef8f160f58f87,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "boot/boot.sdi",.sdi,3170304,861add06c0ca1eff79a0a3bdc04eba639bed8cf3,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "boot/bootfix.bin",.bin,1024,4624161550969fb3745c39c36599432413508def,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "boot/bootsect.exe",.exe,111968,de41cbb7ef26f2d0b240c3c687583584d893b190,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
@@ -21,8 +22,10 @@ path,extension,size_bytes,git_blob_sha,sha256,payload_format,architecture,versio
 "boot/fonts/wgl4_boot.ttf",.ttf,47452,d6b3a8c13dfe9049d337d3ae9f1297c51540ebfa,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "boot/memtest.exe",.exe,797024,d5150cbf070651c623b686d6bfed4acd1b24bec2,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "boot/resources/bootres.dll",.dll,19296,be4f958833310558d8d498fd06046a7706352e37,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
+"bootmgr",no-extension,400228,a81ccfa32075afc3cd1585341b75017b881a5887,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "bootmgr.efi",.efi,1147736,db206c655fd7de8d11b5209b2d769b7d3879f582,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "efi/boot/bootx64.efi",.efi,1159520,43d68966d507eb5da49e9d1592a824c5ae9fdd72,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
+"efi/microsoft/boot/bcd",no-extension,16384,5808d33dff5af7b8368537ac385845da27080e8c,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "efi/microsoft/boot/cdboot_noprompt.efi",.efi,854368,5ba5d254a528ff41d477377e8a6a5eb1be925d1a,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "efi/microsoft/boot/cdboot.efi",.efi,854368,daf67b4fb34abf9d5bbecd442562a55a3ecb818d,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
 "efi/microsoft/boot/efisys_noprompt.bin",.bin,1474560,c1a7c9e78fc6cadcdd0f5410e5c42926a23ca8ff,pending,pending,pending,pending,pending,pending,pending,unknown,further-review-required,pending-format-and-provenance-review
