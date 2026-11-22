@@ -19,7 +19,7 @@ ld -nostdlib -z max-page-size=0x1000 -T kernel/linker.ld -o nexora-kernel.elf he
 
 ## Observed results
 
-- C and assembly compilation completed without compiler errors or warnings under -Werror, including the later CPUID vendor/long-mode reporting and Multiboot2 memory-map summary implementation.
+- C and assembly compilation completed without compiler errors or warnings under -Werror, including CPUID vendor/long-mode reporting, Multiboot2 memory-map summary parsing, IDT setup and exception stubs. An initial noreturn diagnostic in the exception handler was fixed by marking the halt routine noreturn; the updated compile/link then passed.
 - Link completed and produced an ELF executable.
 - readelf -h reported ELF64 and machine Advanced Micro Devices X86-64.
 - ELF entry point: 0x101000.
