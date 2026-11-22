@@ -1,6 +1,7 @@
 /* Freestanding NEXORA kernel bring-up core. */
 #include <stdint.h>
 #include <stddef.h>
+
 #define COM1 0x3F8u
 #define MULTIBOOT2_BOOT_MAGIC 0x36d76289u
 
@@ -31,6 +32,9 @@ static void write_serial(const char *s) {
         putc_serial(*s++);
     }
 }
+static void write_serial_bytes(const char *s, size_t n) {
+    for (size_t i = 0; i < n; ++i) putc_serial(s[i]);
+}
 static void write_hex(uint64_t v) {
     static const char d[] = "0123456789abcdef";
     write_serial("0x");
@@ -38,6 +42,68 @@ static void write_hex(uint64_t v) {
 }
 static void halt(void) {
     for (;;) __asm__ volatile ("cli; hlt");
+}
+static inline void cpuid(uint32_t leaf, uint32_t subleaf,
+                         uint32_t *a, uint32_t *b,
+                         uint32_t *c, uint32_t *d) {
+    __asm__ volatile ("cpuid"
+        : "=a"(*a), "=b"(*b), "=c"(*c), "=d"(*d)
+        : "a"(leaf), "c"(subleaf));
+}
+static void report_cpu_features(void) {
+    uint32_t a, b, c, d;
+    cpuid(0, 0, &a, &b, &c, &d);
+    char vendor[12];
+    *(uint32_t *)&vendor[0] = b;
+    *(uint32_t *)&vendor[4] = d;
+    *(uint32_t *)&vendor[8] = c;
+    write_serial("NEXORA: CPU vendor=");
+    write_serial_bytes(vendor, sizeof(vendor));
+    write_serial("\n");
+
+    cpuid(0x80000000u, 0, &a, &b, &c, &d);
+    if (a >= 0x80000001u) {
+        cpuid(0x80000001u, 0, &a, &b, &c, &d);
+        write_serial("NEXORA: CPU long-mode capability=");
+        write_serial((d & (1u << 29)) ? "present\n" : "not-reported\n");
+    } else {
+        write_serial("NEXORA: extended CPUID features unavailable\n");
+    }
+}
+static uint32_t read_u32(const uint8_t *p) {
+    return *(const uint32_t *)(const void *)p;
+}
+static uint64_t read_u64(const uint8_t *p) {
+    return *(const uint64_t *)(const void *)p;
+}
+static void inspect_memory_map(const uint8_t *tag, uint32_t tag_size) {
+    if (tag_size < 16) {
+        write_serial("NEXORA: malformed memory-map tag header\n");
+        return;
+    }
+    uint32_t entry_size = read_u32(tag + 8);
+    if (entry_size < 24) {
+        write_serial("NEXORA: unsupported memory-map entry size\n");
+        return;
+    }
+    uint32_t count = 0;
+    uint64_t available_bytes = 0;
+    for (uint32_t offset = 16; offset <= tag_size && tag_size - offset >= entry_size;
+         offset += entry_size) {
+        const uint8_t *entry = tag + offset;
+        uint64_t base = read_u64(entry);
+        uint64_t length = read_u64(entry + 8);
+        uint32_t type = read_u32(entry + 16);
+        ++count;
+        if (type == 1u && UINT64_MAX - available_bytes >= length)
+            available_bytes += length;
+        (void)base;
+    }
+    write_serial("NEXORA: memory-map entries=");
+    write_hex(count);
+    write_serial(" usable bytes=");
+    write_hex(available_bytes);
+    write_serial("\n");
 }
 static void inspect_boot_info(uint64_t address) {
     if (!address) {
@@ -53,10 +119,12 @@ static void inspect_boot_info(uint64_t address) {
     write_serial("NEXORA: Multiboot2 info bytes=");
     write_hex(total);
     write_serial("\n");
+
     uintptr_t p = address + 8, end = address + total;
     while (p + 8 <= end) {
-        const uint32_t *tag = (const uint32_t *)p;
-        uint32_t type = tag[0], size = tag[1];
+        const uint8_t *tag = (const uint8_t *)p;
+        uint32_t type = read_u32(tag);
+        uint32_t size = read_u32(tag + 4);
         if (size < 8 || p + size > end) {
             write_serial("NEXORA: malformed boot tag; stopping parse\n");
             break;
@@ -64,18 +132,21 @@ static void inspect_boot_info(uint64_t address) {
         if (type == 0) break;
         if (type == 4 && size >= 16) {
             write_serial("NEXORA: lower memory KB=");
-            write_hex(tag[2]);
+            write_hex(read_u32(tag + 8));
             write_serial(" upper memory KB=");
-            write_hex(tag[3]);
+            write_hex(read_u32(tag + 12));
             write_serial("\n");
-        } else if (type == 6 && size >= 16) {
-            write_serial("NEXORA: memory-map tag entry size=");
-            write_hex(tag[2]);
-            write_serial("\n");
+        } else if (type == 6) {
+            inspect_memory_map(tag, size);
         } else if (type == 8 && size >= 32) {
-            const uint64_t *fb = (const uint64_t *)(p + 8);
             write_serial("NEXORA: framebuffer address=");
-            write_hex(fb[0]);
+            write_hex(read_u64(tag + 8));
+            write_serial(" pitch=");
+            write_hex(read_u32(tag + 16));
+            write_serial(" width=");
+            write_hex(read_u32(tag + 20));
+            write_serial(" height=");
+            write_hex(read_u32(tag + 24));
             write_serial("\n");
         }
         p = (p + size + 7u) & ~(uintptr_t)7u;
@@ -92,6 +163,7 @@ void kernel_main(uint64_t magic, uint64_t info_address) {
         write_serial("NEXORA: FATAL: invalid boot protocol magic\n");
         halt();
     }
+    report_cpu_features();
     inspect_boot_info(info_address);
     write_serial("NEXORA: bootstrap complete; CPU halted safely\n");
     halt();
