@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="NETFX4CLIENT component" displayName="NETFX4CLIENT NetFx4-corperfmonsymbols_ini" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="NetFx4-corperfmonsymbols_ini" version="4.0.10586.0" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="b03f5f7f11d50a3a" />
+  <file hash="4f93e8471219d8c51f8f0513728260a9d2cc9bdb" hashalg="SHA1" name="corperfmonsymbols_d.ini" destinationPath="$(runtime.inf)\.NETFramework\0000\" sourceName="corperfmonsymbols_d.ini" sourcePath=".\" importPath="$(build.nttree)\netfx\core\Win\Microsoft.NET\Framework64\v4\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <lodctr xmlns="urn:schemas-microsoft-com:asm.v3" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">Fr1p7ijzHKfwIWBSE5Q0nezSwmNdNNHM2U4iQ2rpEeA=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <file hash="571c23ee62b140a619b2b34e9a0b70bac189c0b7" hashalg="SHA1" name="corperfmonsymbols.ini" destinationPath="$(runtime.inf)\.NETFramework\" sourceName="corperfmonsymbols.ini" sourcePath=".\" importPath="$(build.nttree)\netfx\core\Win\Microsoft.NET\Framework64\v4\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">H1Qqzqei5a9pFl+SDacpgkJMPLYep7yiZCclLCeKHPQ=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+</assembly>
