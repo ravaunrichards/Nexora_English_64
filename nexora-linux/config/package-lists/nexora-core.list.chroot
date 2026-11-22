@@ -1,9 +1,7 @@
 # NEXORA core and live system
 linux-image-generic
 systemd-sysv
-live-boot
-live-config
-live-config-systemd
+casper
 network-manager
 sudo
 ca-certificates
