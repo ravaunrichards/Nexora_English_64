@@ -1,6 +1,6 @@
 path,type,mode,size_bytes,git_blob_sha,sha256_status,payload_review_status
 ".github/workflows/nexora-live-iso.yml",blob,"100644",996,843360e0343b5c45f1c0e11c52036482b3bb4ddb,not-computed,pending
-".github/workflows/nexora-native-kernel.yml",blob,"100644",1743,60ff34e7a85b8a92e503152590c864da72f6783e,not-computed,pending
+".github/workflows/nexora-native-kernel.yml",blob,"100644",1695,e2ea6d845e7e5eebba796bfdf3452c6c6ae0fff6,not-computed,pending
 "autorun.inf",blob,"100644",128,ef744ee3479fb3553bc10e991f0f9845fa3f3ced,not-computed,pending
 "boot/bcd",blob,"100644",16384,86e647c42bd91f526287a9ecc93ef8f160f58f87,not-computed,pending
 "boot/boot.sdi",blob,"100644",3170304,861add06c0ca1eff79a0a3bdc04eba639bed8cf3,not-computed,pending
@@ -75,7 +75,7 @@ path,type,mode,size_bytes,git_blob_sha,sha256_status,payload_review_status
 "nexora-linux/config/package-lists/nexora-core.list.chroot",blob,"100644",382,d634874f53619859bd9107a85d283b425f4738b1,not-computed,pending
 "nexora-linux/config/package-lists/nexora-desktop.list.chroot",blob,"100644",246,082e7226f26037e6643657b04a0393abb443e6e3,not-computed,pending
 "nexora-linux/README.md",blob,"100644",713,0bc3dc83b012d066c4b57c7e6f915d784cb58174,not-computed,pending
-"README.md",blob,"100644",1735,780181388679098be425d38ff1a66f7e00526858,not-computed,pending
+"README.md",blob,"100644",3585,0e4ef5236e34f65307ffc6f677d235bd1ab79e3c,not-computed,pending
 "scripts/build-iso.sh",blob,"100755",2433,fc30774209662fc154fe14dc1d1de6ec69e57959,not-computed,pending
 "scripts/check-source.sh",blob,"100755",1031,b427d9b61b1aad576ad5b40cb1c7a6e5b269e797,not-computed,pending
 "setup.exe",blob,"100644",271040,cf4773467a29d3edd69433269906181ec430b8a4,not-computed,pending
