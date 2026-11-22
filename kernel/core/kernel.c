@@ -213,7 +213,7 @@ void nexora_exception_handler(struct exception_frame *frame) {
 void kernel_main(uint64_t magic, uint64_t info_address) {
     serial_init();
     idt_init();
-    write_serial("NEXORA: IDT installed for CPU exceptions 0-31\\n");
+    write_serial("NEXORA: IDT installed for CPU exceptions 0-31\n");
     write_serial("\nNEXORA ENGLISH x64 — native kernel bootstrap\n");
     write_serial("NEXORA: entered 64-bit long mode\n");
     write_serial("NEXORA: Multiboot2 magic=");
