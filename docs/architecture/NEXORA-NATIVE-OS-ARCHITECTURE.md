@@ -58,12 +58,11 @@ The current bring-up implementation uses GRUB 2 with the Multiboot2 protocol. GR
 Boot sequence target:
 
 1. UEFI firmware initializes hardware and selects the NEXORA boot entry.
-2. Bootloader loads the NEXORA kernel and required boot modules.
-3. Bootloader supplies memory map, framebuffer, firmware tables, and module information.
-4. NEXORA validates the handoff structure and records boot diagnostics.
-5. NEXORA establishes its own page tables and kernel runtime.
-6. NEXORA initializes CPU exceptions, interrupts, timer, allocator, and console.
-7. Kernel reports a successful milestone boot and enters its controlled idle loop.
+2. GRUB loads the NEXORA ELF kernel using Multiboot2.
+3. GRUB supplies Multiboot2 information, including available memory-map and framebuffer tags.
+4. NEXORA assembly transitions from protected mode to 64-bit long mode using temporary bootstrap page tables.
+5. The freestanding kernel validates the handoff and emits COM1 serial diagnostics.
+6. The current bootstrap halts safely; production page tables, exceptions, interrupts, timer and allocator remain future milestones.
 
 Secure Boot signing, measured boot, recovery entries, and bootloader updates require dedicated later design and testing. Do not claim Secure Boot support until signed boot artifacts are verified on real UEFI systems.
 
