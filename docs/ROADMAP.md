@@ -8,7 +8,7 @@
 |---|---|---|
 | 1 | Complete repository inventory, content classification, binary fingerprints, provenance and licensing audit | **Partially complete** — full tracked-path inventory committed; payload-by-payload review, signatures and license evidence outstanding |
 | 2 | NEXORA identity, repository boundaries, architecture and technical specifications | **In progress** — native architecture baseline committed; detailed subsystem specifications and asset audit outstanding |
-| 3 | NEXORA kernel, AMD64 boot path, toolchain, linker layout and early core | **Planned** — no native kernel implementation or boot test yet |
+| 3 | NEXORA kernel, AMD64 boot path, toolchain, linker layout and early core | **In progress** — initial freestanding kernel bootstrap and UEFI/QEMU workflow added; build/boot verification pending |
 | 4 | NEXORA Desktop and NEXORA Classic shell architecture and implementation | **Planned** |
 | 5 | Core user applications: settings, file manager, terminal, task/process manager, device manager, diagnostics and recovery tools | **Planned** |
 | 6 | Hardware discovery and drivers: CPU, PCI, storage, USB, display, input and power | **Planned** |
