@@ -38,7 +38,7 @@ path,type,mode,size_bytes,git_blob_sha,sha256_status,payload_review_status
 "docs/audits/REPOSITORY-RISK-REPORT.md",blob,"100644",2452,3712d615e545024aa015f43ac3a15ca305686bc7,not-computed,pending
 "docs/BUILDING.md",blob,"100644",1423,86b47cfcd62cdd96111faf0bc6fd1cb9062dc2d3,not-computed,pending
 "docs/DEVELOPMENT-STATUS.md",blob,"100644",2128,ce7710680204d86e79f0f81290c0e4f84b883e02,not-computed,pending
-"docs/ROADMAP.md",blob,"100644",2587,062db76a16a828bfaa455213e31b09dd30d013f6,not-computed,pending
+"docs/ROADMAP.md",blob,"100644",5818,1846479b4efb89d65bd5a089dc7fb82b55c68e69,not-computed,pending
 "docs/TESTING.md",blob,"100644",2391,7db96f1ee50322e899a7fca7902447491d868c1a,not-computed,pending
 "efi/boot/bootx64.efi",blob,"100644",1159520,43d68966d507eb5da49e9d1592a824c5ae9fdd72,not-computed,pending
 "efi/microsoft/boot/bcd",blob,"100644",16384,5808d33dff5af7b8368537ac385845da27080e8c,not-computed,pending
