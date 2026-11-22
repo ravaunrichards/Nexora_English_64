@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" manifestVersion="1.0">
+  <assemblyIdentity name="Microsoft-Windows-TwinUI" version="0.0.0.0" processorArchitecture="*" language="neutral" />
+  <!-- Rules for pulling settings from any earlier settings version into the current version (3). -->
+  <!-- The entries here *completely override* the rules defined in the downlevel copy of twinui.man. -->
+  <!-- This should essentially be the subset of settings from the current migration rules that existed in one of these prior releases. -->
+  <!-- settingsVersion 3 corresponds to "Threshold 2" -->
+  <migration scope="Upgrade" settingsVersion="3" replacementSettingsVersionRange="1-2">
+    <machineSpecific>
+        <migXml xmlns="">
+          <rules context="User">
+            <include>
+              <objectSet>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Notifications\* [*]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\AppContract\* [*]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\SharingMRU\* [*]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\Switcher\* [*]</pattern>
+                <!-- Tiles settings flyout-->
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced [StartMenuAdminTools]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\Grid [Layout_ShowMaxRows]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\PushNotifications [MobileBroadbandCap]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\PushNotifications [MobileBroadbandNextResetDate]</pattern>
+                <!-- Edgy corners / WinX -->
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\EdgeUi [DisableTLCorner]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\EdgeUi [DisableTRCorner]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced [DontUserPowerShellOnWinX]</pattern>
+                <pattern type="File">%CSIDL_LOCAL_APPDATA%\Microsoft\Windows\WinX\* [*]</pattern>
+                <!-- start/search settings -->
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage [OpenAtLogon]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage [MonitorOverride]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage [DesktopFirst]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage [MakeAllAppsDefault]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage [GlobalSearchApps]</pattern>
+                <!-- Persistent virtual desktop state -->
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\VirtualDesktops [VirtualDesktopIDs]</pattern>
+                <!-- Tablet mode settings -->
+                <pattern type="Registry">HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell [ConvertibleSlateModePromptPreference]</pattern>
+                <pattern type="Registry">HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell [SignInMode]</pattern>
+                <pattern type="Registry">HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell [TabletMode]</pattern>
+                <!-- Persistent Continuum state -->
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Continuum [AvailabilityToastCount]</pattern>
+                <!-- Desktop positioner persistence -->
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\ApplicationFrame\* [*]</pattern>
+              </objectSet>
+            </include>
+            <merge script="MigXmlHelper.SourcePriority()">
+              <objectSet>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Notifications\* [*]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\AppContract\* [*]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\SharingMRU\* [*]</pattern>
+                <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\ImmersiveShell\Switcher\* [*]</pattern>
+                <pattern type="File">%CSIDL_LOCAL_APPDATA%\Microsoft\Windows\WinX\* [*]</pattern>
+              </objectSet>
+            </merge>
+          </rules>
+          <rules context="System">
+            <include>
+              <objectSet>
+                <!-- Tablet mode settings -->
+                <pattern type="Registry">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell [ConvertibleSlateModePromptPreference]</pattern>
+                <pattern type="Registry">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell [SignInMode]</pattern>
+              </objectSet>
+            </include>
+          </rules>
+        </migXml>
+    </machineSpecific>
+  </migration>
+</assembly>
