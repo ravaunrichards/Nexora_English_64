@@ -1,0 +1,43 @@
+name: NEXORA native AMD64 kernel
+on:
+  push:
+    branches: ["nexora/development"]
+    paths: ["kernel/**", "bootloader/**", "tests/boot/**", "Makefile", ".github/workflows/nexora-native-kernel.yml"]
+  pull_request:
+    branches: ["nexora/development"]
+    paths: ["kernel/**", "bootloader/**", "tests/boot/**", "Makefile", ".github/workflows/nexora-native-kernel.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build-and-boot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: nexora/development
+      - name: Install build and test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends build-essential grub-common grub-pc-bin grub-efi-amd64-bin xorriso mtools qemu-system-x86 ovmf
+      - name: Build native kernel and UEFI ISO
+        run: make clean iso check
+      - name: Boot ISO under QEMU with OVMF
+        run: bash tests/boot/qemu-smoke-test.sh
+      - name: Record hashes and ELF metadata
+        if: always()
+        run: |
+          if [ -f build/native/nexora-kernel.elf ]; then sha256sum build/native/nexora-kernel.elf; readelf -h build/native/nexora-kernel.elf; fi
+          if [ -f build/native/nexora-native-amd64.iso ]; then sha256sum build/native/nexora-native-amd64.iso; fi
+      - name: Upload outputs and serial log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nexora-native-amd64-kernel-${{ github.sha }}
+          path: |
+            build/native/nexora-kernel.elf
+            build/native/nexora-native-amd64.iso
+            build/native/qemu-serial.log
+          if-no-files-found: warn
+          retention-days: 14
