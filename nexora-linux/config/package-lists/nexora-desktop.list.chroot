@@ -1,0 +1,21 @@
+# KDE Plasma desktop and everyday applications
+xserver-xorg
+xwayland
+kde-plasma-desktop
+sddm
+dolphin
+konsole
+ark
+kate
+gwenview
+spectacle
+plasma-nm
+plasma-pa
+kio-extras
+xdg-desktop-portal-kde
+kdialog
+firefox
+fonts-noto
+fonts-ubuntu
+mesa-utils
+vlc

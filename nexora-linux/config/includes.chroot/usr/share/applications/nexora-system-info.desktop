@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=NEXORA System Information
+Comment=Show NEXORA release and hardware information
+Exec=konsole -e /usr/local/bin/nexora-system-info
+Icon=computer
+Terminal=false
+Categories=System;Utility;

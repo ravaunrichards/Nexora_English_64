@@ -1,0 +1,40 @@
+name: NEXORA live ISO
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "nexora-linux/**"
+      - "scripts/**"
+      - ".github/workflows/nexora-live-iso.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  source-check:
+    name: Validate source configuration
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Run source checks
+        run: bash scripts/check-source.sh
+
+  build-iso:
+    name: Build Ubuntu-based AMD64 live ISO
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Build image
+        run: sudo bash scripts/build-iso.sh
+      - name: Upload ISO artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nexora-live-iso
+          path: build/nexora-live-build/live-image-amd64.hybrid.iso
+          if-no-files-found: error
+          retention-days: 7

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+. /etc/os-release
+printf '%s\n' "${PRETTY_NAME:-NEXORA English x64}"
+printf '%s\n' "----------------------------------------"
+printf 'Kernel:       %s\n' "$(uname -r)"
+printf 'Architecture: %s\n' "$(dpkg --print-architecture 2>/dev/null || uname -m)"
+printf 'Hostname:     %s\n' "$(hostname)"
+if command -v lsb_release >/dev/null 2>&1; then
+  printf 'Ubuntu base:  %s\n' "$(lsb_release -ds 2>/dev/null || true)"
+fi
+if command -v lscpu >/dev/null 2>&1; then
+  printf 'CPU:          %s\n' "$(lscpu | awk -F: '/Model name/ {sub(/^[ \t]+/, "", $2); print $2; exit}')"
+fi
+printf '\n%s\n' "This is a development live image. Back up data before experimenting."

@@ -1,0 +1,12 @@
+NAME="NEXORA English"
+PRETTY_NAME="NEXORA English x64 (Development)"
+ID=nexora
+ID_LIKE="ubuntu debian"
+VERSION="0.1.0-development"
+VERSION_ID="0.1.0"
+VERSION_CODENAME=noble
+UBUNTU_CODENAME=noble
+BUILD_ID=development
+HOME_URL="https://github.com/ravaunrichards/Nexora_English_64"
+SUPPORT_URL="https://github.com/ravaunrichards/Nexora_English_64/issues"
+BUG_REPORT_URL="https://github.com/ravaunrichards/Nexora_English_64/issues"
