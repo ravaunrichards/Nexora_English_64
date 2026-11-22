@@ -15,8 +15,6 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: nexora/development
       - name: Install build and test dependencies
         run: |
           sudo apt-get update
