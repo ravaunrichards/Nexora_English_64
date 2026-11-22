@@ -8,16 +8,18 @@ Initial NEXORA-owned freestanding AMD64 kernel bootstrap sources and an automate
 
 | Item | Status |
 |---|---|
-| Freestanding C kernel entry | Source added; compilation pending CI |
-| Multiboot2 header | Source added; artifact validation pending |
-| 32-bit to 64-bit bootstrap | Source added; runtime validation pending |
+| Freestanding C kernel entry | Source compiled in a local reconstructed snapshot; repository CI pending |
+| Multiboot2 header | Source linked as ELF64 AMD64; GRUB artifact validation pending |
+| 32-bit to 64-bit bootstrap | Source compiled; runtime validation pending |
 | Temporary 1 GiB identity map | Source added; not production VM |
-| COM1 serial diagnostics | Source added; runtime validation pending |
+| COM1 serial diagnostics | Source compiled; runtime validation pending |
 | Multiboot2 boot-tag inspection | Source added; runtime validation pending |
 | GRUB UEFI ISO recipe | Source added; image build pending |
 | QEMU + OVMF smoke test | Automated; not yet run |
 | Exceptions, IDT, allocator, scheduler, syscalls | Not implemented |
 | Userland, services, drivers, desktop, installer | Not implemented |
+
+A local compiler/linker smoke check passed for a reconstructed copy of the committed source snapshot using GCC 14.2.0 and GNU ld 2.44. The resulting ELF was ELF64 AMD64 with entry point 0x101000 and a 24-byte Multiboot2 header at file offset 0x1000. See [the local compile report](audits/NATIVE-KERNEL-LOCAL-COMPILE-REPORT.md). This is not evidence of a repository checkout build or runtime boot.
 
 ## Verification policy
 
