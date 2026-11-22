@@ -41,13 +41,13 @@ lb config \
   --architectures amd64 \
   --archive-areas "main restricted universe multiverse" \
   --binary-images iso-hybrid \
-  --bootloaders "grub-efi grub-pc" \
+  --bootloader grub \
   --debian-installer false \
   --apt-recommends true \
   --iso-application "NEXORA English x64" \
   --iso-publisher "NEXORA Project" \
   --iso-volume "NEXORA_ENGLISH_X64" \
-  --bootappend-live "boot=live components hostname=nexora username=nexora" \
+  --bootappend-live "boot=casper hostname=nexora" \
   --mirror-bootstrap "http://archive.ubuntu.com/ubuntu/" \
   --mirror-chroot "http://archive.ubuntu.com/ubuntu/" \
   --mirror-binary "http://archive.ubuntu.com/ubuntu/" \
