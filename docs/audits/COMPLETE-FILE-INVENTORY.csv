@@ -33,11 +33,11 @@ path,type,mode,size_bytes,git_blob_sha,sha256_status,payload_review_status
 "docs/architecture/NEXORA-LINUX-ARCHITECTURE.md",blob,"100644",2385,068b9a9059123a220746f9d2756565f375173cbd,not-computed,pending
 "docs/audits/BINARY-PROVENANCE-REGISTER.csv",blob,"100644",81563,d9ed6aae8226703bfda81c85d3b607c43abff1c5,not-computed,pending
 "docs/audits/COMPONENT-REUSE-REGISTER.md",blob,"100644",2729,39c9f076f91c3e1a68c26e0abb3689f9f2ac10bc,not-computed,pending
-"docs/audits/NATIVE-KERNEL-LOCAL-COMPILE-REPORT.md",blob,"100644",2461,4fa452244a3b6b5734a087b7ebb905bc340ad9cf,not-computed,pending
+"docs/audits/NATIVE-KERNEL-LOCAL-COMPILE-REPORT.md",blob,"100644",2564,27bf1640d86ea0f0a64733120ba605ce13322c32,not-computed,pending
 "docs/audits/PHASE-1-REPOSITORY-BASELINE.md",blob,"100644",6103,773614618cca8135ab452d876268e162e8d63ccd,not-computed,pending
 "docs/audits/REPOSITORY-RISK-REPORT.md",blob,"100644",2452,3712d615e545024aa015f43ac3a15ca305686bc7,not-computed,pending
 "docs/BUILDING.md",blob,"100644",1423,86b47cfcd62cdd96111faf0bc6fd1cb9062dc2d3,not-computed,pending
-"docs/DEVELOPMENT-STATUS.md",blob,"100644",2128,ce7710680204d86e79f0f81290c0e4f84b883e02,not-computed,pending
+"docs/DEVELOPMENT-STATUS.md",blob,"100644",2461,0930d7f482e3a9be783caf140a7cfd996ce95c80,not-computed,pending
 "docs/ROADMAP.md",blob,"100644",5818,1846479b4efb89d65bd5a089dc7fb82b55c68e69,not-computed,pending
 "docs/TESTING.md",blob,"100644",2391,7db96f1ee50322e899a7fca7902447491d868c1a,not-computed,pending
 "efi/boot/bootx64.efi",blob,"100644",1159520,43d68966d507eb5da49e9d1592a824c5ae9fdd72,not-computed,pending
@@ -66,7 +66,7 @@ path,type,mode,size_bytes,git_blob_sha,sha256_status,payload_review_status
 "efi/microsoft/boot/resources/bootres.dll",blob,"100644",19296,114c58c663ae79eb5e69714b47f1aef9ae302ad6,not-computed,pending
 "kernel/arch/x86_64/boot.S",blob,"100644",1546,d8e4a2e212c65e95b11840d4ef9a933d38fa44f6,not-computed,pending
 "kernel/boot/multiboot2_header.S",blob,"100644",295,e882e74f936589edace5a332a8af103b06a065e2,not-computed,pending
-"kernel/core/kernel.c",blob,"100644",3211,eada3b1b3f7943eedb7b9d6fa1936176b5fc80e4,not-computed,pending
+"kernel/core/kernel.c",blob,"100644",5664,d5be0f7f4d454d943c01253a20c950e951116777,not-computed,pending
 "kernel/linker.ld",blob,"100644",396,0c51a505ce0f9e9e7b37a42e54eaeae8ff7aa796,not-computed,pending
 "Makefile",blob,"100644",1516,88a91508b4c4a353035b015b1c82de21afbe1fab,not-computed,pending
 "nexora-linux/config/includes.chroot/etc/issue",blob,"100644",68,5373c28a1740b7db79c57b57c05ff6e6b1d88732,not-computed,pending
