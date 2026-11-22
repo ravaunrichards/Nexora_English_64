@@ -30,7 +30,7 @@ Read [NEXORA Native OS Architecture](docs/architecture/NEXORA-NATIVE-OS-ARCHITEC
 
 ## Current milestone
 
-**Milestone 0 — repository preservation and native architecture definition.** The next implementation milestone is a minimal NEXORA-owned AMD64 kernel that boots in an emulator, prints diagnostic output, and has automated build/boot tests. This is a milestone target, not a claim that it already exists.
+**Milestone 1 — native kernel bootstrap source and automated UEFI/QEMU pipeline added.** The first freestanding AMD64 kernel entry, Multiboot2 header, long-mode transition, temporary identity map, serial diagnostics, GRUB ISO recipe and QEMU smoke-test workflow are now in the development branch. Compilation and runtime boot are still unverified; see [kernel bootstrap notes](docs/architecture/NEXORA-KERNEL-BOOTSTRAP.md) and [development status](docs/DEVELOPMENT-STATUS.md).
 
 ## Legacy and experimental material
 
