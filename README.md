@@ -8,7 +8,7 @@ NEXORA is not an Ubuntu respin, is not a renamed Windows installation, and does 
 
 The repository currently contains a large Windows installation-media collection alongside project documentation and earlier experimental Linux live-image work. These existing files are retained as project input and historical material. They are **not** a native NEXORA kernel or complete operating system.
 
-The complete tracked-path inventory is recorded in [the repository audit](docs/audits/NEXORA-ENGLISH-X64-COMPLETE-TREE-AUDIT.md) and [the machine-readable inventory](docs/audits/NEXORA-ENGLISH-X64-TREE-INVENTORY.csv). The inventory covers every tracked path; it does not claim every binary has been reverse-engineered or licensed for redistribution.
+The complete tracked-path inventory is recorded in [the current repository audit](docs/audits/COMPLETE-REPOSITORY-AUDIT.md), [the file-only inventory](docs/audits/COMPLETE-FILE-INVENTORY.csv), and [the original recursive-tree snapshot](docs/audits/NEXORA-ENGLISH-X64-TREE-INVENTORY.csv). The inventory covers every tracked path; it does not claim every binary has been reverse-engineered or licensed for redistribution.
 
 ## Native architecture
 
