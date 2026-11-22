@@ -13,12 +13,15 @@
 - PAE and EFER.LME activation, paging enablement and 64-bit far jump.
 - 16 KiB bootstrap stack.
 - Freestanding C entry point and COM1 serial diagnostics.
+- IDT setup for CPU exception vectors 0–31, with error-code-aware assembly stubs.
+- Fatal exception diagnostics including vector, error code, instruction pointer and page-fault address (CR2).
+- CPUID vendor/long-mode capability reporting and Multiboot2 memory-map summary parsing.
 - Basic validation and inspection of Multiboot2 memory summary, memory-map and framebuffer tags.
 - GRUB menu entry and UEFI ISO build recipe.
 
 ## Explicit limitations
 
-This is a bring-up kernel, not a complete operating system. The first 1 GiB identity map is temporary, not a production virtual-memory design. Runtime GDT/IDT management, exception handlers, allocators, scheduler, userspace, syscall ABI, device model, filesystem, network stack, graphics driver and installer are not implemented. The kernel halts after reporting boot information.
+This is a bring-up kernel, not a complete operating system. The first 1 GiB identity map is temporary, not a production virtual-memory design. The IDT and fatal exception path for vectors 0–31 are now present but have not been exercised by runtime fault injection. The current bootstrap still lacks physical/virtual allocators, scheduler, userspace, syscall ABI, device model, filesystem, network stack, graphics driver and installer. The kernel halts after reporting boot information.
 
 GRUB supplies the Multiboot2 handoff; this is not a NEXORA-written UEFI firmware loader. Secure Boot signing and legacy BIOS validation are separate work.
 
