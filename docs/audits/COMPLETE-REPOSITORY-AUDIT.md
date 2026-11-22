@@ -2,12 +2,12 @@
 
 **Repository:** ravaunrichards/Nexora_English_64  
 **Branch:** nexora/development  
-**Audited tree commit:** 43445b5cfe38dbc66195046dfef8c28f0dd0c4ef  
+**Baseline recursive-tree snapshot:** 9d49729b6b91edadd7e7d52613768fd57aae727b; later native-kernel and audit additions are captured in COMPLETE-FILE-INVENTORY.csv  
 **Audit status:** Tracked-path inventory is complete at the recorded baseline; the generated file-only inventory excludes itself and this audit narrative to avoid self-referential hashes. Payload, binary provenance and license review remain incomplete.
 
 ## Repository inventory
 
-The baseline recursive Git tree contained 2,093 entries (1,891 blobs and 202 trees). The native-kernel work added 11 tracked files and nine directory paths. Five audit deliverables were then added. The repository therefore has 1,909 tracked file paths, 212 directory paths and 2,121 total tracked entries. COMPLETE-FILE-INVENTORY.csv records 1,907 file paths, excluding that inventory itself and this audit narrative to avoid self-referential Git object hashes.
+The baseline recursive Git tree contained 2,093 entries (1,891 blobs and 202 trees). The native-kernel work added 12 tracked files and ten directory paths. Six audit deliverables were then added. The repository therefore has 1,909 tracked file paths, 212 directory paths and 2,121 total tracked entries. COMPLETE-FILE-INVENTORY.csv records 1,907 file paths, excluding that inventory itself and this audit narrative to avoid self-referential Git object hashes.
 
 The machine-readable file-only inventory is COMPLETE-FILE-INVENTORY.csv. The prior recursive Git tree inventory remains available as NEXORA-ENGLISH-X64-TREE-INVENTORY.csv. Git object SHA values are Git blob identifiers, not SHA-256 content digests. The inventory's SHA-256 and payload-review columns remain pending until byte-level downloads and inspection are performed.
 
@@ -36,7 +36,7 @@ No claim is made that all binary payloads have been reverse-engineered, signatur
 2. Microsoft and third-party executables, DLLs, EFI binaries, fonts and resources have unresolved provenance and redistribution status.
 3. Adobe Flash/ActiveX is obsolete and unsafe; do not bundle it.
 4. The old Ubuntu live-image project is not the native NEXORA kernel and must not be represented as such.
-5. The native kernel bootstrap has not yet passed a recorded compiler or QEMU test.
+5. The native kernel source has passed a local reconstructed-source compiler/linker smoke check; the repository checkout build, GRUB validation, ISO build and QEMU boot remain unverified.
 6. The native kernel's current identity map is temporary and covers only the first 1 GiB.
 7. No native scheduler, production memory manager, userland, drivers, desktop, installer, package manager or update system is complete.
 
