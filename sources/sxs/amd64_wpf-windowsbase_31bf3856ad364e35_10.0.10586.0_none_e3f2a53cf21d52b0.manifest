@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Windows Presentation Foundation component" displayName="Windows Presentation Foundation WPF-WindowsBase" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." isolated="false">
+  <assemblyIdentity name="WPF-WindowsBase" version="10.0.10586.0" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
+  <file name="WindowsBase.dll" destinationPath="$(runtime.programFiles)\Reference Assemblies\Microsoft\Framework\v3.0\" sourceName="WindowsBase.dll" sourcePath="Program_Files\Reference_Assemblies\Microsoft\Framework\v3.0\" importPath="$(build.nttree)\wpf\Program_Files\Reference_Assemblies\Microsoft\Framework\v3.0\">
+    <securityDescriptor name="WRP_FILE_DEFAULT_SDDL" />
+    <asmv2:hash xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">Ecf0VulOEyiyYg+9nn/CFO+yxpwu/yoscQuZIliHB8w=</dsig:DigestValue>
+    </asmv2:hash>
+  </file>
+  <registryKeys>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy\Extensions\NamedPermissionSets" perUserVirtualization="Disable" />
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy\Extensions\NamedPermissionSets\LocalIntranet\WebBrowserPermission" perUserVirtualization="Disable">
+      <registryValue name="Xml" valueType="REG_SZ" value="&lt;IPermission class=&quot;System.Security.Permissions.WebBrowserPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; version=&quot;1&quot; Level=&quot;Safe&quot;/>" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy\Extensions\NamedPermissionSets\Internet\WebBrowserPermission" perUserVirtualization="Disable">
+      <registryValue name="Xml" valueType="REG_SZ" value="&lt;IPermission class=&quot;System.Security.Permissions.WebBrowserPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; version=&quot;1&quot; Level=&quot;Safe&quot;/>" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy\Extensions" perUserVirtualization="Disable" />
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy\Extensions\NamedPermissionSets\LocalIntranet\MediaPermission" perUserVirtualization="Disable">
+      <registryValue name="Xml" valueType="REG_SZ" value="&lt;IPermission class=&quot;System.Security.Permissions.MediaPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; version=&quot;1&quot; Audio=&quot;SafeAudio&quot; Video=&quot;SafeVideo&quot; Image=&quot;SafeImage&quot;/>" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy\Extensions\NamedPermissionSets\Internet" perUserVirtualization="Disable" />
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy" perUserVirtualization="Disable" />
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy\Extensions\NamedPermissionSets\Internet\MediaPermission" perUserVirtualization="Disable">
+      <registryValue name="Xml" valueType="REG_SZ" value="&lt;IPermission class=&quot;System.Security.Permissions.MediaPermission, WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&quot; version=&quot;1&quot; Audio=&quot;SafeAudio&quot; Video=&quot;SafeVideo&quot; Image=&quot;SafeImage&quot;/>" />
+    </registryKey>
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security\Policy\Extensions\NamedPermissionSets\LocalIntranet" perUserVirtualization="Disable" />
+    <registryKey keyName="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\Security" perUserVirtualization="Disable" />
+  </registryKeys>
+  <trustInfo>
+    <security>
+      <accessControl>
+        <securityDescriptorDefinitions>
+          <securityDescriptorDefinition name="WRP_FILE_DEFAULT_SDDL" sddl="O:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464G:S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464D:P(A;;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)(A;;GRGX;;;BA)(A;;GRGX;;;SY)(A;;GRGX;;;BU)(A;;GRGX;;;S-1-15-2-1)S:(AU;FASA;0x000D0116;;;WD)" operationHint="replace" description="Default SDDL for Windows Resource Protected file" />
+        </securityDescriptorDefinitions>
+      </accessControl>
+    </security>
+  </trustInfo>
+  <runtime xmlns="urn:schemas-microsoft-com:asm.v2" imageVersion="v2.0.50727" />
+</assembly>
