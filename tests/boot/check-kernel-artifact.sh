@@ -7,7 +7,7 @@ command -v readelf >/dev/null
 grub-file --is-x86-multiboot2 "$kernel"
 readelf -h "$kernel" | grep -q 'Class:.*ELF64'
 readelf -h "$kernel" | grep -q 'Machine:.*Advanced Micro Devices X86-64'
-readelf -s "$kernel" | grep -q 'kernel_main'
+readelf --wide -s "$kernel" | grep -q 'kernel_main'
 readelf -s "$kernel" | grep -q 'isr_stub_table'
 readelf -s "$kernel" | grep -q 'nexora_exception_handler'
 echo "PASS: ELF64 AMD64 kernel and Multiboot2 header validated."
