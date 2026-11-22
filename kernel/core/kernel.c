@@ -40,7 +40,7 @@ static void write_hex(uint64_t v) {
     write_serial("0x");
     for (int i = 60; i >= 0; i -= 4) putc_serial(d[(v >> i) & 15]);
 }
-static void halt(void) {
+static __attribute__((noreturn)) void halt(void) {
     for (;;) __asm__ volatile ("cli; hlt");
 }
 static inline void cpuid(uint32_t leaf, uint32_t subleaf,
