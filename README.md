@@ -36,4 +36,4 @@ Read [NEXORA Native OS Architecture](docs/architecture/NEXORA-NATIVE-OS-ARCHITEC
 
 - `boot/`, `efi/`, `bootmgr*`, `setup.exe`, `sources/`, and `support/`: supplied Windows setup-media material; inspect, classify, and preserve.
 - `nexora-linux/` and its related live-image scripts/workflow: earlier experiment, not the selected NEXORA architecture. It is retained for history and is not the active build target.
-- `docs/audits/`: tracked-tree and content-review records.
+- `docs/audits/`: tracked-tree inventory, file-level inventory, binary provenance, reuse and risk records.
