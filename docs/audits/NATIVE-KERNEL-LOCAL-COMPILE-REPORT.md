@@ -25,7 +25,7 @@ ld -nostdlib -z max-page-size=0x1000 -T kernel/linker.ld -o nexora-kernel.elf he
 - ELF entry point: 0x101000.
 - .multiboot section file offset: 0x1000, within the Multiboot2 first-32-KiB header search window.
 - .multiboot section length: 0x18 bytes.
-- objdump -s -j .multiboot showed magic bytes d65052e8, architecture field zero, length 0x18, checksum field 12afad17, and the required end tag.
+- objdump -s -j .multiboot showed magic bytes d65052e8, architecture field zero, length 0x18, checksum field 12afad17, and the required end tag. An independent Python byte-level check confirmed that the header checksum sums to zero modulo 2^32 and that the end tag is correctly encoded.
 - ELF load segments were separately marked read-only, executable/read, read-only, and read/write; no combined RWX load segment was shown.
 
 ## Not tested
